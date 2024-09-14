@@ -1,0 +1,39 @@
+SCR_BaseGameMode : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
+ ID "56B2B479C6B96951"
+ components {
+  SCR_GameModeHealthSettings "{5A22E11F9ACBB1DF}" {
+   m_bPermitUnconsciousVON 1
+  }
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   m_SpawnLogic SCR_AutoSpawnLogic "{625D067A5EB1D548}" {
+   }
+  }
+ }
+ m_bUseSpawnPreload 0
+ {
+  PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+   ID "625D067A2EAE853B"
+   coords 3.409 -2.064 -0.064
+  }
+  SCR_FactionManager : "{156DC37CE56BDF0F}Prefabs/MP/Managers/Factions/FactionManager_Frontline.et" {
+   ID "625D067DC6A3C4BE"
+   coords 0 0 0
+  }
+  RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+   ID "625D067A36D63EA4"
+   coords 0 0 0
+  }
+  ScriptedChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
+   ID "625D067A24761E91"
+   coords 0 0 0
+  }
+  SCR_LoadoutManager : "{6F29F707566A7CB8}Prefabs/MP/Managers/Loadouts/LoadoutManager_Frontline.et" {
+   ID "625D067DCC9A4677"
+   coords 0 0 0
+  }
+  SCR_BaseTaskManager : "{87208DAD6F3C0DE2}Prefabs/MP/Managers/Tasks/TaskManager_Editor.et" {
+   ID "625D067A3D94C515"
+   coords 0 0 0
+  }
+ }
+}
