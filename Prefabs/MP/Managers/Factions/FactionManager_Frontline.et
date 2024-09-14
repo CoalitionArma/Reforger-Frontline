@@ -2,9 +2,157 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
  ID "56B2B4776E6E4499"
  Factions {
   SCR_Faction "{56B2B46E999BF3BF}" : "{5EB46557DF2AA24F}Configs/Factions/US.conf" {
+   UIInfo SCR_FactionUIInfo "{528C961236B7DCD3}" {
+    Name "BLUFOR"
+    m_sNameUpper "BLUFOR"
+   }
+   m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+    m_aSquadNames {
+     SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+      m_sCallsign "COMMAND"
+     }
+     SCR_CallsignInfo "{55CCB792D13759D8}" {
+      m_sCallsign "1SQD"
+     }
+     SCR_CallsignInfo "{55CCB792D1218E95}" {
+      m_sCallsign "2SQD"
+     }
+     SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+      m_sCallsign "3SQD"
+     }
+     SCR_CallsignInfo "{625D0675AFD7CF0B}" {
+      m_sCallsign "4SQD"
+     }
+     SCR_CallsignInfo "{625D0675AE3A3A20}" {
+      m_sCallsign "LOGI"
+     }
+     SCR_CallsignInfo "{625D0675BF004D07}" {
+      m_sCallsign "ARMOR"
+     }
+    }
+    m_sCallsignGroupFormat "%3"
+   }
+   m_aPredefinedGroups {
+    SCR_GroupPreset "{625D067225BC2441}" {
+     m_sGroupName "Command"
+     m_sGroupFlag "{AEA07460606095ED}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Infantry_UI.edds"
+     m_sGroupDescription "The people in charge of BLUFOR"
+     m_iGroupSize 3
+    }
+    SCR_GroupPreset "{625D06720AA6A3A0}" {
+     m_sGroupName "1st Squad"
+     m_sGroupFlag "{AEA07460606095ED}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Infantry_UI.edds"
+     m_iGroupSize 12
+    }
+    SCR_GroupPreset "{625D06721D96DDE8}" {
+     m_sGroupName "2nd Squad"
+     m_sGroupFlag "{AEA07460606095ED}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Infantry_UI.edds"
+     m_iGroupSize 12
+     m_iRadioFrequency 0
+    }
+    SCR_GroupPreset "{625D06721153DA57}" {
+     m_sGroupName "3rd Squad"
+     m_sGroupFlag "{AEA07460606095ED}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Infantry_UI.edds"
+     m_iGroupSize 12
+     m_iRadioFrequency 0
+    }
+    SCR_GroupPreset "{625D0675E66FC36B}" {
+     m_sGroupName "4th Squad"
+     m_sGroupFlag "{AEA07460606095ED}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Infantry_UI.edds"
+     m_iGroupSize 12
+     m_iRadioFrequency 0
+    }
+    SCR_GroupPreset "{625D0675F16EC8F9}" {
+     m_sGroupName "Logistics / Engineer"
+     m_sGroupFlag "{2A5DB30A28BD26A6}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Maintenance_UI.edds"
+     m_iGroupSize 5
+     m_iRadioFrequency 0
+    }
+    SCR_GroupPreset "{625D0675B8D69827}" {
+     m_sGroupName "Armor"
+     m_sGroupFlag "{06707AEC3FB7601A}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Armor_UI.edds"
+     m_iGroupSize 8
+    }
+   }
+   m_bCreateOnlyPredefinedGroups 1
    m_sFactionBackground "{F8AC305446D5D480}UI/Textures/DeployMenu/Loadout-BG/Loadout_US_BG.imageset"
   }
   SCR_Faction "{56B2B46E9AF80999}" : "{09727032415AC39B}Configs/Factions/USSR.conf" {
+   UIInfo SCR_FactionUIInfo "{528C96127F8B6B08}" {
+    Name "OPFOR"
+    m_sNameUpper "OPFOR"
+   }
+   m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A67DFB8809}" {
+    m_bIsAssignedRandomly 0
+    m_aSquadNames {
+     SCR_CallsignInfo "{55CCB79287E901BC}" {
+      m_sCallsign "COMMAND"
+     }
+     SCR_CallsignInfo "{55CCB79287936EBD}" {
+      m_sCallsign "1SQD"
+     }
+     SCR_CallsignInfo "{55CCB79287BAFBD6}" {
+      m_sCallsign "2SQD"
+     }
+     SCR_CallsignInfo "{55CCB79287A4D7B6}" {
+      m_sCallsign "3SQD"
+     }
+     SCR_CallsignInfo "{625D067564799528}" {
+      m_sCallsign "4SQD"
+     }
+     SCR_CallsignInfo "{625D067564FC2B79}" {
+      m_sCallsign "LOGI"
+     }
+     SCR_CallsignInfo "{625D067564BBED67}" {
+      m_sCallsign "ARMOR"
+     }
+    }
+    m_sCallsignGroupFormat "%3"
+   }
+   m_aPredefinedGroups {
+    SCR_GroupPreset "{625D0668FA278C6B}" {
+     m_sGroupName "Command"
+     m_sGroupFlag "{AEA07460606095ED}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Infantry_UI.edds"
+     m_sGroupDescription "The people in charge of OPFOR"
+     m_iGroupSize 3
+    }
+    SCR_GroupPreset "{625D0668C32CC11A}" {
+     m_sGroupName "1st Squad"
+     m_sGroupFlag "{AEA07460606095ED}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Infantry_UI.edds"
+     m_iGroupSize 12
+     m_iRadioFrequency 0
+    }
+    SCR_GroupPreset "{625D0668D6339320}" {
+     m_sGroupName "2nd Squad"
+     m_sGroupFlag "{AEA07460606095ED}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Infantry_UI.edds"
+     m_iGroupSize 12
+     m_iRadioFrequency 0
+    }
+    SCR_GroupPreset "{625D0668AF0D94DE}" {
+     m_sGroupName "3rd Squad"
+     m_sGroupFlag "{AEA07460606095ED}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Infantry_UI.edds"
+     m_iGroupSize 12
+     m_iRadioFrequency 0
+    }
+    SCR_GroupPreset "{625D0668AC6972CC}" {
+     m_sGroupName "4th Squad"
+     m_sGroupFlag "{AEA07460606095ED}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Infantry_UI.edds"
+     m_iGroupSize 12
+     m_iRadioFrequency 0
+    }
+    SCR_GroupPreset "{625D0668AC83DF3E}" {
+     m_sGroupName "Logistics / Engineer"
+     m_sGroupFlag "{2A5DB30A28BD26A6}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Maintenance_UI.edds"
+     m_iGroupSize 5
+    }
+    SCR_GroupPreset "{625D0668ABA63B75}" {
+     m_sGroupName "Armor"
+     m_sGroupFlag "{06707AEC3FB7601A}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_Armor_UI.edds"
+     m_iGroupSize 8
+     m_iRadioFrequency 0
+    }
+   }
+   m_bCreateOnlyPredefinedGroups 1
    m_sFactionBackground "{21533F2089005056}UI/Textures/DeployMenu/Loadout-BG/Loadout_BG_USSR.imageset"
   }
  }
