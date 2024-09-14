@@ -1,0 +1,8 @@
+GameProject {
+ ID "ReforgerFrontline"
+ GUID "625D0615E43EBF15"
+ TITLE "Reforger Frontline"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
