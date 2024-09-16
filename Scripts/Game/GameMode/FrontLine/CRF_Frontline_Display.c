@@ -66,8 +66,7 @@ class CRF_Frontline_HUD : SCR_InfoDisplay
 			return;
 		};
 		
-		CRF_SafestartGameModeComponent safestart = CRF_SafestartGameModeComponent.GetInstance();
-		if(safestart.GetSafestartStatus() || !SCR_BaseGameMode.Cast(GetGame().GetGameMode()).IsRunning() || !safestart.m_bHUDVisible)
+		if(!SCR_BaseGameMode.Cast(GetGame().GetGameMode()).IsRunning())
 			m_wRoot.SetOpacity(0);
 		else
 			m_wRoot.SetOpacity(1);

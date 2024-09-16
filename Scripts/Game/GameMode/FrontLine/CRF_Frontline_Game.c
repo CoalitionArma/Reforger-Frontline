@@ -21,10 +21,13 @@ class CRF_FrontlineGameModeComponent: SCR_BaseGameModeComponent
 	[Attribute("", UIWidgets.EditBox, desc: "Array of all zone object names, !MAKE SURE ALL OBJECTS LISTED ARE INVINCIBLE!", category: "Frontline Zone Settings")]
 	ref array<string> m_aZoneObjectNames;
 	
+	[Attribute("75", "auto", "[Meters] The radius of the capture zone around each capture point", category: "Frontline Zone Settings")]
+	int m_iZoneSize;
+	
 	[Attribute("30", "auto", "[Seconds] The amount of time it takes to cap a zone", category: "Frontline Zone Settings")]
 	int m_iZoneCaptureTime;
 	
-	[Attribute("600", "auto", "[Seconds] Time until the frontline zones are unlocked after being locked, recommend you stick to on of these: [5 minutes, 10 minutes, 15 minutes, 20 minutes]", category: "Frontline Zone Settings")]
+	[Attribute("600", "auto", "[Seconds] Time until the frontline zones are unlocked after being locked, recommend you stick to one of these: [5 minutes, 10 minutes, 15 minutes, 20 minutes]", category: "Frontline Zone Settings")]
 	int m_iZoneUnlockTime;
 	
 	[Attribute("5", "auto", "Min number of players needed to cap a zone", category: "Frontline Zone Settings")]
@@ -105,7 +108,7 @@ class CRF_FrontlineGameModeComponent: SCR_BaseGameModeComponent
 		if (!gameModePlayerComponent) 
 			return;
 		
-		gameModePlayerComponent.UpdateMapMarkers(m_aZonesStatus, m_aZoneObjectNames, m_BluforSide, m_OpforSide);
+		gameModePlayerComponent.UpdateMapMarkers(m_aZonesStatus, m_aZoneObjectNames, m_BluforSide, m_OpforSide, m_iZoneSize);
 		
 		GetGame().GetCallqueue().Remove(CheckAddInitialMarkers);
 	}
@@ -132,8 +135,7 @@ class CRF_FrontlineGameModeComponent: SCR_BaseGameModeComponent
 	//------------------------------------------------------------------------------------------------
 	void StartGame()
 	{
-		CRF_SafestartGameModeComponent safestart = CRF_SafestartGameModeComponent.GetInstance();
-		if(safestart.GetSafestartStatus() || !SCR_BaseGameMode.Cast(GetGame().GetGameMode()).IsRunning())
+		if(!SCR_BaseGameMode.Cast(GetGame().GetGameMode()).IsRunning())
 			return;
 		
 		int zoneIndex = ((m_aZonesStatus.Count()-1)/2);
@@ -164,8 +166,7 @@ class CRF_FrontlineGameModeComponent: SCR_BaseGameModeComponent
 	//------------------------------------------------------------------------------------------------
 	protected void UpdateZones()
 	{
-		CRF_SafestartGameModeComponent safestart = CRF_SafestartGameModeComponent.GetInstance();
-		if(safestart.GetSafestartStatus() || !SCR_BaseGameMode.Cast(GetGame().GetGameMode()).IsRunning() || !m_bGameStarted)
+		if(!SCR_BaseGameMode.Cast(GetGame().GetGameMode()).IsRunning() || !m_bGameStarted)
 			return;
 		
 		int zonesCapturedBlufor;
@@ -184,7 +185,7 @@ class CRF_FrontlineGameModeComponent: SCR_BaseGameModeComponent
 			if(!zone)
 				continue;
 			
-			GetGame().GetWorld().QueryEntitiesBySphere(zone.GetOrigin(), 75, ProcessEntity, null, EQueryEntitiesFlags.DYNAMIC | EQueryEntitiesFlags.WITH_OBJECT); // get all entitys within a 150m radius around the zone
+			GetGame().GetWorld().QueryEntitiesBySphere(zone.GetOrigin(), m_iZoneSize, ProcessEntity, null, EQueryEntitiesFlags.DYNAMIC | EQueryEntitiesFlags.WITH_OBJECT); // get all entitys within a 150m radius around the zone
 			
 			float bluforInZone = 0;
 			float opforInZone = 0;
@@ -576,7 +577,7 @@ class CRF_FrontlineGameModeComponent: SCR_BaseGameModeComponent
 	//------------------------------------------------------------------------------------------------
 	void UpdateClients()
 	{
-		CRF_GameModePlayerComponent.GetInstance().UpdateMapMarkers(m_aZonesStatus, m_aZoneObjectNames, m_BluforSide, m_OpforSide);
+		CRF_GameModePlayerComponent.GetInstance().UpdateMapMarkers(m_aZonesStatus, m_aZoneObjectNames, m_BluforSide, m_OpforSide, m_iZoneSize);
 	}
 	
 	//------------------------------------------------------------------------------------------------

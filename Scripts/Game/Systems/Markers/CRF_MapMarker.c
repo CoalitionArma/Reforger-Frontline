@@ -87,14 +87,17 @@ modded class SCR_MapMarkersUI
 		int i = 0;
 		
 		foreach(Widget marker, string markerString : m_mStoredWidgetSettingsMap)
-		{
-			vector pos;
-			
+		{	
 			TStringArray markerStringArray = {};
 			markerString.Split("||", markerStringArray, false);
 			
 			if(!markerStringArray || markerStringArray.IsEmpty() || !marker)
 				continue;
+			
+			float screenPosX, screenPosY, sizeX, sizeY, screenXEnd, screenYEnd;
+			int x, y;
+			float worldSize = markerStringArray[7].ToInt();
+			vector pos;
 			
 			if(markerStringArray[0] != "Static Marker") {
 				IEntity entity = GetGame().GetWorld().FindEntityByName(markerStringArray[0]);
@@ -126,24 +129,32 @@ modded class SCR_MapMarkersUI
 					};
 				} else {
 					pos = entity.GetOrigin() + markerStringArray[1].ToVector();
-				};
+				};					
 			} else {
 				pos = markerStringArray[1].ToVector();
 			};
 			
-			int screenPosX;
-			int screenPosY;
-		
 			m_MapUnitEntity.WorldToScreen(pos[0], pos[2], screenPosX, screenPosY, true);
+			int screenDPIPosX = GetGame().GetWorkspace().DPIUnscale(screenPosX);
+			int screenDPIPosY = GetGame().GetWorkspace().DPIUnscale(screenPosY);
+			
+			FrameSlot.SetPos(marker, screenDPIPosX, screenDPIPosY);
 		
-			screenPosX = GetGame().GetWorkspace().DPIUnscale(screenPosX);
-			screenPosY = GetGame().GetWorkspace().DPIUnscale(screenPosY);
-				
-			FrameSlot.SetPos(
-				marker,
-				screenPosX,
-				screenPosY
-			);
+			if (worldSize != 0) // Calculate world size if need
+			{
+				// Scale to workspace
+				m_MapUnitEntity.WorldToScreen(pos[0] + worldSize, pos[2] + worldSize, screenXEnd, screenYEnd, true);
+				sizeX = GetGame().GetWorkspace().DPIUnscale(screenXEnd - screenPosX);
+				sizeY = GetGame().GetWorkspace().DPIUnscale(screenPosY - screenYEnd); // Y flip
+		
+				ImageWidget m_UnitImage = ImageWidget.Cast(marker.FindAnyWidget("MarkerIcon"));
+				m_UnitImage.GetImageSize(0, x, y);
+				if (y == 0) y = 1;
+		
+				sizeY *= (float) y / (float) x;
+			
+				FrameSlot.SetSize(m_UnitImage, sizeX, sizeY);
+			};
 			
 			i = i + 1;
 		};
