@@ -7,7 +7,6 @@ class CRF_ManualMarkerClass : GenericEntityClass
 
 class CRF_ManualMarker : GenericEntity
 {
-	/
 	// Attributes for editing through workbench TODO: proper description
 	[Attribute("{D17288006833490F}UI/Textures/Icons/icons_wrapperUI-32.imageset")]
 	protected ResourceName m_sImageSet;
