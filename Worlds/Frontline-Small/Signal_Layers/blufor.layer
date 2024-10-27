@@ -1,0 +1,206 @@
+$grp SCR_VehicleSpawn {
+ {
+  coords 1880.491 31.702 2006.618
+  angleY 51.144
+  m_rnPrefab "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et"
+  respawnDelay 60
+ }
+ {
+  coords 1871.164 30.678 2000.254
+  angleX 5.081
+  angleY 46.456
+  angleZ -1.132
+  m_rnPrefab "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et"
+ }
+}
+SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ coords 1860.002 27.181 1947.79
+ angleY -91
+ m_fSpawnRadius 20
+}
+$grp GenericEntity : "{77F90F896D5145C8}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_US_01.et" {
+ {
+  coords 1831.207 26.228 1945.254
+  angleX -1.365
+  angleY 160.895
+  angleZ 4.254
+  {
+   GenericEntity {
+    ID "5D22B92C55FB6E83"
+    components {
+     SCR_ServicePointComponent "{60567C5242176FCB}" {
+      Enabled 0
+     }
+     ActionsManagerComponent "{5CB6953CEF1EFF85}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5D45393EBFC416D1"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aEncapsulators {
+       SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+        m_aActions {
+         SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+          m_fResourceValueCurrent 1000
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1842.271 25.82 1925.812
+  angleX 4.196
+  angleY 73.236
+  angleZ 1.534
+  {
+   GenericEntity {
+    ID "5D22B92C55FB6E83"
+    components {
+     SCR_ServicePointComponent "{60567C5242176FCB}" {
+      Enabled 0
+     }
+     ActionsManagerComponent "{5CB6953CEF1EFF85}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5D45393EBFC416D1"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aEncapsulators {
+       SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+        m_aActions {
+         SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+          m_fResourceValueCurrent 1000
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{7C367E9261376345}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_S_US_01.et" {
+ coords 1887.552 25.714 1940.777
+ angleX 2.583
+ angleY -105.756
+ angleZ -0.729
+ {
+  GenericEntity {
+   ID "5D06E957D85806FB"
+   {
+    GenericEntity {
+     ID "5D82CDCBCE1C5003"
+     components {
+      SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+       m_aContainers {
+        SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+         m_fResourceValueCurrent 1000
+         m_fResourceValueMax 1000
+         m_bEnableResourceGain 1
+         m_fResourceGain 1
+         m_fResourceGainTickrate 10
+        }
+       }
+       m_aEncapsulators {
+        SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+         m_aActions {
+          SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+           m_fResourceValueCurrent 1000
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D06E957D858060A"
+   {
+    GenericEntity {
+     ID "5E430BEF8FEF5401"
+     components {
+      SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+       m_aContainers {
+        SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+         m_fResourceValueCurrent 1000
+         m_fResourceValueMax 1000
+         m_bEnableResourceGain 1
+         m_fResourceGain 1
+         m_fResourceGainTickrate 10
+        }
+       }
+       m_aEncapsulators {
+        SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+         m_aActions {
+          SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+           m_fResourceValueCurrent 1000
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{8B4B8BF44162B24E}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_US_01.et" {
+ coords 1858.642 27.718 1965.645
+ angleX 1.789
+ angleY -0.028
+ angleZ -0.896
+}
+GenericEntity : "{ECB8E313DFBD3415}Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_US_01.et" {
+ coords 1859.585 29.431 2000.469
+ angleX -3.677
+ angleY 154.377
+ angleZ 4.724
+ {
+  GenericEntity {
+   ID "5E690689EC0B4D5B"
+   components {
+    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+     m_aContainers {
+      SCR_ResourceContainer "{62B720C64034CA2A}" {
+       m_fResourceValueCurrent 1000
+       m_fResourceValueMax 1000
+       m_bEnableResourceGain 1
+       m_fResourceGain 1
+       m_fResourceGainTickrate 20
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D45393A2E695E30"
+   components {
+    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+     m_aEncapsulators {
+      SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+       m_aActions {
+        SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+         m_fResourceValueCurrent 1000
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

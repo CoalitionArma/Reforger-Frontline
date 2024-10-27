@@ -1,4 +1,13 @@
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ coords 2454.485 113.896 2114.812
+}
 SCR_BaseGameMode GameMode_Frontline1 : "{58D30FCD82B9A241}Prefabs/MP/Modes/Frontline/GameMode_Frontline.et" {
+ components {
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   m_SpawnLogic SCR_MenuSpawnLogic "{625D067A5EB1D548}" {
+   }
+  }
+ }
  coords 2169.479 66.353 2500.991
  angleX 1.659
  angleY 0.467

@@ -1,0 +1,150 @@
+GenericEntity : "{1EB5949DF6738E38}Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_USSR_01.et" {
+ coords 3006.937 18.926 2747.498
+ angleX -10.606
+ angleY 103.86
+ angleZ -1.038
+ {
+  GenericEntity {
+   ID "5D45393ACC919C9A"
+   components {
+    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+     m_aContainers {
+      SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+       m_fResourceValueCurrent 1000
+       m_fResourceValueMax 1000
+       m_fResourceGain 1
+       m_fResourceGainTickrate 20
+      }
+     }
+     m_aEncapsulators {
+      SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+       m_aActions {
+        SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+         m_fResourceValueCurrent 1000
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ coords 2986.181 20.92 2761.798
+ m_fSpawnRadius 20
+}
+GenericEntity : "{68ED84218EA1BDC3}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_USSR_01.et" {
+ coords 2999.718 19.458 2768.094
+ angleX 4.464
+ angleY 0.073
+ angleZ 2.681
+}
+GenericEntity : "{7C20041DA3207191}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_S_USSR_01.et" {
+ coords 2965.508 23.471 2758.354
+ angleX -7.311
+ angleY 87.496
+ angleZ -4.118
+ {
+  GenericEntity {
+   ID "5D06FC881A7A27FE"
+   {
+    GenericEntity {
+     ID "5D82CDCA0B582A12"
+     components {
+      SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+       m_aContainers {
+        SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+         m_fResourceValueCurrent 1000
+         m_fResourceValueMax 1000
+         m_bEnableResourceGain 1
+         m_fResourceGain 1
+         m_fResourceGainTickrate 10
+        }
+       }
+       m_aEncapsulators {
+        SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+         m_aActions {
+          SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+           m_fResourceValueCurrent 1000
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D06FC881A7A276B"
+   {
+    GenericEntity {
+     ID "5D82CDCA57D02289"
+     components {
+      SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+       m_aContainers {
+        SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+         m_fResourceValueCurrent 1000
+         m_fResourceValueMax 1000
+         m_bEnableResourceGain 1
+         m_fResourceGain 1
+         m_fResourceGainTickrate 10
+        }
+       }
+       m_aEncapsulators {
+        SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+         m_aActions {
+          SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+           m_fResourceValueCurrent 1000
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{FD952CFF9CAD3F2B}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_USSR_01.et" {
+ {
+  coords 2969.093 21.513 2783.347
+  angleX -7.88
+  angleY 95.638
+  angleZ -1.666
+  {
+   GenericEntity {
+    ID "5D22B92C154776A8"
+    components {
+     SCR_ServicePointComponent "{60567C5242176FCB}" {
+      Enabled 0
+     }
+     ActionsManagerComponent "{5CB6953CEF1EFF85}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2982.83 20.401 2785.283
+  angleX -0.893
+  angleY -0.028
+  angleZ 5.356
+  {
+   GenericEntity {
+    ID "5D22B92C154776A8"
+    components {
+     SCR_ServicePointComponent "{60567C5242176FCB}" {
+      Enabled 0
+     }
+     ActionsManagerComponent "{5CB6953CEF1EFF85}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+}

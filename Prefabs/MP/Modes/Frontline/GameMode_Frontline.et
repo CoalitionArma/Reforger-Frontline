@@ -149,7 +149,7 @@ SCR_BaseGameMode : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
    m_bPermitUnconsciousVON 1
   }
   SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
-   m_SpawnLogic SCR_AutoSpawnLogic "{625D067A5EB1D548}" {
+   m_SpawnLogic SCR_MenuSpawnLogic "{625D067A5EB1D548}" {
    }
   }
  }

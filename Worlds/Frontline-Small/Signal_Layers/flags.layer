@@ -1,0 +1,103 @@
+$grp GenericEntity : "{05137D09E06465C6}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_US_04.et" {
+ {
+  coords 2540.973 127.643 2457.061
+ }
+ {
+  coords 2520.013 147.252 2279.96
+  angleY 125
+ }
+}
+GenericEntity dZone : "{4EBC47B8D0D10809}Prefabs/Structures/Frontline/FlagPole_Zone_D.et" {
+ coords 2544.641 130.367 2452.453
+ angleX -8.36
+ angleY 2.105
+ angleZ -14.19
+}
+StaticModelEntity : "{5FB3A1755261CA59}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Bunker_Camouflaged_US_01.et" {
+ coords 2493.046 147.822 2248.801
+ angleY -99
+}
+GenericEntity cZone : "{73886280A5BD813E}Prefabs/Structures/Frontline/FlagPole_Zone_C.et" {
+ coords 2508.125 148.838 2274.953
+ angleZ -1.79
+}
+GenericEntity bZone : "{96142E79A9581655}Prefabs/Structures/Frontline/FlagPole_Zone_B.et" {
+ coords 2452.137 111.588 2101.663
+ angleX 12.039
+ angleY -2.171
+ angleZ -8.281
+}
+$grp SCR_DestructibleBuildingEntity : "{A2726797F70F52D8}Prefabs/Structures/Military/Bunkers/Bunker_01/Bunker_01_1fp_Camo.et" {
+ {
+  coords 2494.149 0 2277.987
+  angleY -94
+ }
+ {
+  coords 2509.875 0 2238.144
+  angleY -172
+ }
+ {
+  coords 2542.148 0 2263.595
+  angleY 111
+ }
+}
+GenericEntity eZone : "{AB200B41DC349F62}Prefabs/Structures/Frontline/FlagPole_Zone_E.et" {
+ coords 2628.238 103.538 2600.569
+ angleX 3.576
+ angleY 0.056
+ angleZ 0.897
+}
+GenericEntity : "{B1EF20282529F4B4}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_US_01.et" {
+ coords 2541.248 128.985 2446.691
+ angleY -130
+}
+GenericEntity : "{DDBB14C899ED7B9A}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_US_02.et" {
+ coords 2517.85 147.905 2284.247
+ angleY 101
+}
+$grp GenericEntity : "{E08F31F0EC81F2AD}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_US_05.et" {
+ {
+  coords 2618.935 102.863 2607.03
+  angleY -73
+ }
+ {
+  coords 2639.281 100.492 2590.36
+  angleX -12.14
+  angleY 130.724
+  angleZ -3.439
+ }
+ {
+  coords 2521.321 147.281 2273.525
+  angleY 75
+ }
+ {
+  coords 2518.2 147.581 2267.303
+  angleY 127
+ }
+ {
+  coords 2493.921 146.57 2263.992
+  angleY -98
+ }
+ {
+  coords 2501.371 147.133 2292.676
+ }
+}
+$grp StaticModelEntity : "{E27FB14C3073BF80}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/Sandbag_01_bunker_plastic_CompositionDestruction.et" {
+ {
+  coords 2623.328 102.581 2591.779
+  angleY -163
+ }
+ {
+  coords 2635.308 101.904 2613.215
+ }
+ {
+  coords 2552.191 132.231 2439.136
+  angleY 134
+ }
+}
+GenericEntity aZone : "{FA401A99159C997B}Prefabs/Structures/Frontline/FlagPole_Zone_A.et" {
+ coords 2160.736 65.896 2147.709
+ angleX 10.597
+ angleY -0.502
+ angleZ -2.73
+}
