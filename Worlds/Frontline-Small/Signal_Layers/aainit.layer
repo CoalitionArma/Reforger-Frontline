@@ -1,0 +1,6 @@
+SCR_BaseGameMode GameMode_Frontline1 : "{58D30FCD82B9A241}Prefabs/MP/Modes/Frontline/GameMode_Frontline.et" {
+ coords 2169.479 66.353 2500.991
+ angleX 1.659
+ angleY 0.467
+ angleZ 15.715
+}
