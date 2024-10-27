@@ -6,13 +6,13 @@ $grp SCR_VehicleSpawn {
   respawnDelay 60
  }
  {
-  coords 2233.198 135.441 5588.294
+  coords 2233.198 135.097 5588.294
   angleY -149.048
   m_rnPrefab "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et"
  }
 }
 SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
- coords 2211.449 134.548 5623.493
+ coords 2211.449 134.547 5623.493
  angleY -91
  m_fSpawnRadius 20
 }
@@ -22,12 +22,70 @@ $grp GenericEntity : "{77F90F896D5145C8}Prefabs/Compositions/Slotted/SlotFlatSma
   angleX -0.895
   angleY -91.07
   angleZ 0.017
+  {
+   GenericEntity {
+    ID "5D22B92C55FB6E83"
+    components {
+     SCR_ServicePointComponent "{60567C5242176FCB}" {
+      Enabled 0
+     }
+     ActionsManagerComponent "{5CB6953CEF1EFF85}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5D45393EBFC416D1"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aEncapsulators {
+       SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+        m_aActions {
+         SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+          m_fResourceValueCurrent 1000
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
  }
  {
   coords 2197.882 134.117 5632.656
   angleX 3.595
   angleY -178.78
   angleZ -0.817
+  {
+   GenericEntity {
+    ID "5D22B92C55FB6E83"
+    components {
+     SCR_ServicePointComponent "{60567C5242176FCB}" {
+      Enabled 0
+     }
+     ActionsManagerComponent "{5CB6953CEF1EFF85}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5D45393EBFC416D1"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aEncapsulators {
+       SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+        m_aActions {
+         SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+          m_fResourceValueCurrent 1000
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
  }
 }
 GenericEntity : "{7C367E9261376345}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_S_US_01.et" {
@@ -52,6 +110,15 @@ GenericEntity : "{7C367E9261376345}Prefabs/Compositions/Slotted/SlotFlatSmall/Am
          m_fResourceGainTickrate 10
         }
        }
+       m_aEncapsulators {
+        SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+         m_aActions {
+          SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+           m_fResourceValueCurrent 1000
+          }
+         }
+        }
+       }
       }
      }
     }
@@ -71,6 +138,15 @@ GenericEntity : "{7C367E9261376345}Prefabs/Compositions/Slotted/SlotFlatSmall/Am
          m_bEnableResourceGain 1
          m_fResourceGain 1
          m_fResourceGainTickrate 10
+        }
+       }
+       m_aEncapsulators {
+        SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+         m_aActions {
+          SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+           m_fResourceValueCurrent 1000
+          }
+         }
         }
        }
       }
@@ -102,6 +178,22 @@ GenericEntity : "{ECB8E313DFBD3415}Prefabs/Compositions/Slotted/SlotFlatSmall/Ve
     }
    }
   }
+  GenericEntity {
+   ID "5D45393A2E695E30"
+   components {
+    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+     m_aEncapsulators {
+      SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+       m_aActions {
+        SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+         m_fResourceValueCurrent 1000
+        }
+       }
+      }
+     }
+    }
+   }
+  }
  }
 }
 GenericEntity : "{FB18EFE9C1A81E29}Prefabs/Compositions/Slotted/SlotFlatMedium/VehicleMaintenance_M_US_01.et" {
@@ -109,4 +201,22 @@ GenericEntity : "{FB18EFE9C1A81E29}Prefabs/Compositions/Slotted/SlotFlatMedium/V
  angleX 0.218
  angleY 14.011
  angleZ 2.82
+ {
+  GenericEntity {
+   ID "5D45393D583117FF"
+   components {
+    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+     m_aEncapsulators {
+      SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+       m_aActions {
+        SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+         m_fResourceValueCurrent 1000
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
 }

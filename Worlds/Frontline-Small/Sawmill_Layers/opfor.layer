@@ -16,6 +16,15 @@ GenericEntity : "{1EB5949DF6738E38}Prefabs/Compositions/Slotted/SlotFlatSmall/Ve
        m_fResourceGainTickrate 20
       }
      }
+     m_aEncapsulators {
+      SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+       m_aActions {
+        SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+         m_fResourceValueCurrent 1000
+        }
+       }
+      }
+     }
     }
    }
   }
@@ -26,9 +35,47 @@ GenericEntity : "{4510C273B794F3A9}Prefabs/Compositions/Slotted/SlotFlatMedium/V
  angleX 1.567
  angleY -39.601
  angleZ 10.209
+ {
+  GenericEntity {
+   ID "5D45393C2BCAFA5E"
+   components {
+    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+     m_aContainers {
+      SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+      }
+     }
+     m_aEncapsulators {
+      SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+       m_aActions {
+        SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+         m_fResourceValueCurrent 1000
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D45393C2BCAFB2E"
+   components {
+    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+     m_aEncapsulators {
+      SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+       m_aActions {
+        SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+         m_fResourceValueCurrent 1000
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
 }
 SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
- coords 4029.843 97.058 4899.047
+ coords 4029.843 96.841 4899.047
  m_fSpawnRadius 20
 }
 GenericEntity : "{68ED84218EA1BDC3}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_USSR_01.et" {
@@ -59,6 +106,15 @@ GenericEntity : "{7C20041DA3207191}Prefabs/Compositions/Slotted/SlotFlatSmall/Am
          m_fResourceGainTickrate 10
         }
        }
+       m_aEncapsulators {
+        SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+         m_aActions {
+          SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+           m_fResourceValueCurrent 1000
+          }
+         }
+        }
+       }
       }
      }
     }
@@ -80,6 +136,15 @@ GenericEntity : "{7C20041DA3207191}Prefabs/Compositions/Slotted/SlotFlatSmall/Am
          m_fResourceGainTickrate 10
         }
        }
+       m_aEncapsulators {
+        SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+         m_aActions {
+          SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+           m_fResourceValueCurrent 1000
+          }
+         }
+        }
+       }
       }
      }
     }
@@ -93,11 +158,37 @@ $grp GenericEntity : "{FD952CFF9CAD3F2B}Prefabs/Compositions/Slotted/SlotFlatSma
   angleX -2.666
   angleY -0.194
   angleZ 5.359
+  {
+   GenericEntity {
+    ID "5D22B92C154776A8"
+    components {
+     SCR_ServicePointComponent "{60567C5242176FCB}" {
+      Enabled 0
+     }
+     ActionsManagerComponent "{5CB6953CEF1EFF85}" {
+      Enabled 0
+     }
+    }
+   }
+  }
  }
  {
-  coords 4023.754 96.718 4912.365
+  coords 4023.754 96.719 4912.365
   angleX -4.987
   angleY 95.554
   angleZ -4.062
+  {
+   GenericEntity {
+    ID "5D22B92C154776A8"
+    components {
+     SCR_ServicePointComponent "{60567C5242176FCB}" {
+      Enabled 0
+     }
+     ActionsManagerComponent "{5CB6953CEF1EFF85}" {
+      Enabled 0
+     }
+    }
+   }
+  }
  }
 }
