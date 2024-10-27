@@ -18,5 +18,11 @@ SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
  coords 2714.183 97.419 5370.06
 }
 SCR_BaseGameMode GameMode_Frontline1 : "{58D30FCD82B9A241}Prefabs/MP/Modes/Plain/GameMode_Frontline.et" {
+ components {
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   m_SpawnLogic SCR_MenuSpawnLogic "{625D067A5EB1D548}" {
+   }
+  }
+ }
  coords 2720.26 99.606 5410.533
 }

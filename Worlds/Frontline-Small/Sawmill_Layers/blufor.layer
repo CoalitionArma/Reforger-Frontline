@@ -1,0 +1,4 @@
+SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ coords 4039.754 94.096 4971.534
+ m_fSpawnRadius 20
+}
