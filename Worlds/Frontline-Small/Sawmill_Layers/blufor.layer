@@ -1,4 +1,112 @@
+$grp SCR_VehicleSpawn {
+ {
+  coords 2228.636 135.474 5575.681
+  angleY 176.219
+  m_rnPrefab "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et"
+  respawnDelay 60
+ }
+ {
+  coords 2233.198 135.441 5588.294
+  angleY -149.048
+  m_rnPrefab "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et"
+ }
+}
 SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
- coords 4039.754 94.096 4971.534
+ coords 2211.449 134.548 5623.493
+ angleY -91
  m_fSpawnRadius 20
+}
+$grp GenericEntity : "{77F90F896D5145C8}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_US_01.et" {
+ {
+  coords 2219.792 134.434 5637.171
+  angleX -0.895
+  angleY -91.07
+  angleZ 0.017
+ }
+ {
+  coords 2197.882 134.117 5632.656
+  angleX 3.595
+  angleY -178.78
+  angleZ -0.817
+ }
+}
+GenericEntity : "{7C367E9261376345}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_S_US_01.et" {
+ coords 2187.985 135.426 5620.198
+ angleX -4.488
+ angleY 89.667
+ angleZ -3.539
+ {
+  GenericEntity {
+   ID "5D06E957D85806FB"
+   {
+    GenericEntity {
+     ID "5D82CDCBCE1C5003"
+     components {
+      SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+       m_aContainers {
+        SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+         m_fResourceValueCurrent 1000
+         m_fResourceValueMax 1000
+         m_bEnableResourceGain 1
+         m_fResourceGain 1
+         m_fResourceGainTickrate 10
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D06E957D858060A"
+   {
+    GenericEntity {
+     ID "5E430BEF8FEF5401"
+     components {
+      SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+       m_aContainers {
+        SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+         m_fResourceValueCurrent 1000
+         m_fResourceValueMax 1000
+         m_bEnableResourceGain 1
+         m_fResourceGain 1
+         m_fResourceGainTickrate 10
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{ECB8E313DFBD3415}Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_US_01.et" {
+ coords 2233.712 135.299 5608.295
+ angleX 3.523
+ angleY 176.933
+ angleZ -1.083
+ {
+  GenericEntity {
+   ID "5E690689EC0B4D5B"
+   components {
+    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+     m_aContainers {
+      SCR_ResourceContainer "{62B720C64034CA2A}" {
+       m_fResourceValueCurrent 1000
+       m_fResourceValueMax 1000
+       m_bEnableResourceGain 1
+       m_fResourceGain 1
+       m_fResourceGainTickrate 20
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{FB18EFE9C1A81E29}Prefabs/Compositions/Slotted/SlotFlatMedium/VehicleMaintenance_M_US_01.et" {
+ coords 2289.044 106.644 5356.345
+ angleX 0.218
+ angleY 14.011
+ angleZ 2.82
 }
