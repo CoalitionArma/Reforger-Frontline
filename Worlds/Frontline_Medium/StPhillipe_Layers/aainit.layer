@@ -5,7 +5,6 @@ SCR_BaseGameMode GameMode_Frontline1 : "{58D30FCD82B9A241}Prefabs/MP/Modes/Front
  components {
   CRF_FrontlineGameModeComponent "{620F6AB8F7CA48DE}" {
    m_iMinNumberOfPlayersNeeded 4
-   m_iInitialTime 300
   }
  }
  coords 4276.016 0.747 10728.794
