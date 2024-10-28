@@ -12,6 +12,7 @@ $grp SCR_VehicleSpawn {
 }
 SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
  coords 2309.36 90.619 1266.519
+ angleY -56.457
 }
 GenericEntity : "{77F90F896D5145C8}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_US_01.et" {
  coords 2321.319 90.272 1252.758

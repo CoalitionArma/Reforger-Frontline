@@ -1,0 +1,341 @@
+$grp GenericEntity : "{0ABD8BF6D9EEB802}Prefabs/Compositions/Slotted/SlotFlatSmall/COAL_SandbagPos_S_Green_03.et" {
+ {
+  coords 8137.024 201.965 3876.074
+  angleY 137.574
+ }
+ {
+  coords 8803.666 96.659 2778.626
+  angleY -112.01
+ }
+ {
+  coords 9713.95 11.438 1520.803
+  angleY -116.932
+ }
+}
+$grp GenericEntity : "{3789AECEAC823135}Prefabs/Compositions/Slotted/SlotFlatSmall/COAL_SandbagPos_S_Green_04.et" {
+ {
+  coords 8121.708 202.638 3892.742
+  angleY -82.299
+ }
+ {
+  coords 8813.891 96.42 2792.019
+  angleY -26.352
+ }
+ {
+  coords 9189.738 64.193 2084.575
+  angleY -60.35
+ }
+ {
+  coords 9729.565 10.437 1520.63
+  angleY 179.046
+ }
+}
+$grp GenericEntity : "{4617082F85CF296E}Prefabs/Compositions/Slotted/SlotFlatSmall/COAL_Bunker_Green_01.et" {
+ {
+  coords 8832.604 95.084 2781.145
+  angleY -18.92
+ }
+ {
+  coords 8153.537 198.561 3886.209
+ }
+ {
+  coords 8436.532 134.967 3368.679
+  angleY 135.809
+  {
+   GenericEntity {
+    ID "62B8D48769A8A4CA"
+    coords 2.739 0.219 2.657
+    angleY 92.884
+   }
+   GenericEntity {
+    ID "62B8D48769AB46EC"
+    coords 2.675 0.671 -3.412
+    angleY 92.884
+   }
+   GenericEntity {
+    ID "62B8D48769AA7FBD"
+    coords 2.371 0.058 3.987
+    angleY -177.116
+   }
+   GenericEntity {
+    ID "62B8D48769AB46E8"
+    coords -2.537 -0.242 -2.976
+    angleY 92.884
+   }
+   GenericEntity {
+    ID "62B8D48769AB46EF"
+    coords 2.586 0.841 -5.33
+    angleY 92.884
+   }
+   GenericEntity {
+    ID "62B8D48769AB5E08"
+    coords -2.232 -0.544 3.063
+    angleY -87.116
+   }
+   GenericEntity {
+    ID "62B8D48769AB5E09"
+    coords -2.493 -0.306 -2.113
+    angleY -87.116
+   }
+   GenericEntity {
+    ID "62B8D48769ABC42F"
+    coords -2.333 -0.428 1.035
+    angleY 92.884
+   }
+   GenericEntity {
+    ID "62B8D48769AA7FC8"
+    coords -2.422 -0.374 -0.543
+    angleY 92.884
+   }
+   GenericEntity {
+    ID "62B8D48769AA7FB4"
+    coords -2.591 -0.196 -3.632
+    angleY 92.884
+   }
+   StaticModelEntity {
+    ID "62B8D48769AA7FCE"
+    coords 3.388 0.574 -0.569
+    angleY 92.884
+   }
+  }
+ }
+ {
+  coords 9166.48 65.432 2067.13
+  angleY 161.865
+  {
+   GenericEntity {
+    ID "62B8D48769A8A4CA"
+    coords 2.738 0.78 2.657
+    angleY 92.884
+   }
+   GenericEntity {
+    ID "62B8D48769AB46EC"
+    coords 2.675 0.394 -3.411
+    angleY 92.884
+   }
+   GenericEntity {
+    ID "62B8D48769AA7FBD"
+    coords 2.37 0.78 3.987
+    angleY -177.116
+   }
+   GenericEntity {
+    ID "62B8D48769AB46E8"
+    coords -2.536 -1.076 -2.976
+    angleY 92.884
+   }
+   GenericEntity {
+    ID "62B8D48769AB46EF"
+    coords 2.585 0.214 -5.329
+    angleY 92.884
+   }
+   GenericEntity {
+    ID "62B8D48769AB5E08"
+    coords -2.232 -0.28 3.063
+    angleY -87.116
+   }
+   GenericEntity {
+    ID "62B8D48769AB5E09"
+    coords -2.492 -0.96 -2.113
+    angleY -87.116
+   }
+   GenericEntity {
+    ID "62B8D48769ABC42F"
+    coords -2.333 -0.507 1.035
+    angleY 92.884
+   }
+   GenericEntity {
+    ID "62B8D48769AA7FC8"
+    coords -2.423 -0.734 -0.542
+    angleY 92.884
+   }
+   GenericEntity {
+    ID "62B8D48769AA7FB4"
+    coords -2.591 -1.169 -3.632
+    angleY 92.884
+   }
+   StaticModelEntity {
+    ID "62B8D48769AA7FCE"
+    coords 3.389 0.727 -0.569
+    angleY 92.884
+   }
+  }
+ }
+ {
+  coords 9694.396 13.095 1546.161
+  angleY -139.342
+  {
+   GenericEntity {
+    ID "62B8D48769A8A4CA"
+    coords 2.74 0.186 2.657
+    angleY 92.884
+   }
+   GenericEntity {
+    ID "62B8D48769AB46EC"
+    coords 2.676 -0.053 -3.411
+    angleY 92.884
+   }
+   GenericEntity {
+    ID "62B8D48769AA7FBD"
+    coords 2.371 0.155 3.987
+    angleY -177.116
+   }
+   GenericEntity {
+    ID "62B8D48769AB46E8"
+    coords -2.537 -0.385 -2.976
+    angleY 92.884
+   }
+   GenericEntity {
+    ID "62B8D48769AB46EF"
+    coords 2.586 -0.241 -5.329
+    angleY 92.884
+   }
+   GenericEntity {
+    ID "62B8D48769AB5E08"
+    coords -2.231 -0.112 3.063
+    angleY -87.116
+   }
+   GenericEntity {
+    ID "62B8D48769AB5E09"
+    coords -2.492 -0.364 -2.113
+    angleY -87.116
+   }
+   GenericEntity {
+    ID "62B8D48769ABC42F"
+    coords -2.332 -0.107 1.036
+    angleY 92.884
+   }
+   GenericEntity {
+    ID "62B8D48769AA7FC8"
+    coords -2.422 0.181 -0.542
+    angleY 92.884
+   }
+   GenericEntity {
+    ID "62B8D48769AA7FB4"
+    coords -2.591 -0.385 -3.632
+    angleY 92.884
+   }
+   StaticModelEntity {
+    ID "62B8D48769AA7FCE"
+    coords 3.389 0.246 -0.569
+    angleY 92.884
+   }
+  }
+ }
+}
+GenericEntity : "{4EBC47B8D0D10809}Prefabs/Structures/Frontline/FlagPole_Zone_D.et" {
+ coords 8446.332 134.031 3386.056
+}
+$grp GenericEntity : "{5CB3BC314133B06A}Prefabs/Compositions/Slotted/SlotFlatSmall/COAL_SandbagPos_S_Green_01.et" {
+ {
+  coords 8135.796 202.406 3895.414
+  angleY 42.456
+ }
+ {
+  coords 8431.564 135.6 3384.752
+  angleY -77.666
+ }
+ {
+  coords 9189.291 63.946 2037.988
+  angleY -157.24
+  {
+   GenericEntity {
+    ID "62B36195F5605C85"
+    coords -1.39 -0.298 -0.607
+    angleX 1.967
+    angleY 3.685
+    angleZ -9.342
+   }
+   GenericEntity {
+    ID "62B36195F5608CF3"
+    coords 1.803 0.254 -0.544
+    angleX -2.184
+    angleY -174.995
+    angleZ 9.294
+   }
+   GenericEntity {
+    ID "62B36195F5608CF4"
+    coords -2.732 -0.534 -0.679
+    angleX -0.646
+    angleY 175.746
+    angleZ 9.524
+   }
+   GenericEntity {
+    ID "62B36195F5608CF6"
+    coords 3.128 0.629 -0.481
+    angleX 0.674
+    angleY -4.088
+    angleZ -9.521
+   }
+   GenericEntity {
+    ID "62B36195F5608CFC"
+    coords 0.149 -0.035 -0.572
+    angleX 1.194
+    angleY -0.983
+    angleZ -9.471
+   }
+   GenericEntity {
+    ID "62B36195F560DF29"
+    coords -3.631 -0.685 -0.763
+    angleX -0.791
+    angleY 176.609
+    angleZ 9.513
+   }
+   GenericEntity {
+    ID "62B36195F560E784"
+    coords 4.045 0.872 -0.479
+    angleX 1.041
+    angleY -1.896
+    angleZ -9.489
+   }
+   StaticModelEntity {
+    ID "62B36195F560E79D"
+    coords 2.336 0.559 0.512
+    angleX -8.98
+    angleY -78.117
+    angleZ -3.249
+   }
+   StaticModelEntity {
+    ID "62B36195F56101F4"
+    coords -2.141 -0.305 0.379
+    angleX -9.53
+    angleY -101.368
+    angleZ 0.541
+   }
+   StaticModelEntity {
+    ID "62B36195F56101F5"
+    coords 3.987 0.993 0.545
+    angleX -9.545
+    angleY -98.101
+   }
+  }
+ }
+ {
+  coords 9728.355 11.198 1568.493
+ }
+ {
+  coords 9729.539 10.452 1555.051
+ }
+}
+GenericEntity : "{73886280A5BD813E}Prefabs/Structures/Frontline/FlagPole_Zone_C.et" {
+ coords 8824.257 96.356 2769.229
+}
+GenericEntity : "{96142E79A9581655}Prefabs/Structures/Frontline/FlagPole_Zone_B.et" {
+ coords 9195.677 65.023 2080.4
+ angleY -149.303
+}
+GenericEntity : "{AB200B41DC349F62}Prefabs/Structures/Frontline/FlagPole_Zone_E.et" {
+ coords 8131.505 203.595 3889.54
+ angleY 39.279
+}
+$grp GenericEntity : "{EF21C70FD50B2F69}Prefabs/Compositions/Slotted/SlotFlatSmall/COAL_SandbagPos_S_Green_02.et" {
+ {
+  coords 8446.993 133.019 3390.804
+ }
+ {
+  coords 8816.07 94.656 2751.642
+  angleY 164.228
+ }
+}
+GenericEntity : "{FA401A99159C997B}Prefabs/Structures/Frontline/FlagPole_Zone_A.et" {
+ coords 9728.653 11.702 1537.86
+}

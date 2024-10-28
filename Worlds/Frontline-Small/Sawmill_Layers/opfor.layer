@@ -1,160 +1,18 @@
-GenericEntity : "{1EB5949DF6738E38}Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_USSR_01.et" {
- coords 4034.387 97.35 4878.925
- angleX 9.201
- angleY -113.496
- angleZ -1.092
- {
-  GenericEntity {
-   ID "5D45393ACC919C9A"
-   components {
-    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
-     m_aContainers {
-      SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-       m_fResourceValueCurrent 1000
-       m_fResourceValueMax 1000
-       m_fResourceGain 1
-       m_fResourceGainTickrate 20
-      }
-     }
-     m_aEncapsulators {
-      SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
-       m_aActions {
-        SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
-         m_fResourceValueCurrent 1000
-        }
-       }
-      }
-     }
-    }
-   }
-  }
- }
-}
-GenericEntity : "{4510C273B794F3A9}Prefabs/Compositions/Slotted/SlotFlatMedium/VehicleMaintenance_M_USSR_01.et" {
- coords 3955.254 108.619 4911.974
- angleX 1.567
- angleY -39.601
- angleZ 10.209
- {
-  GenericEntity {
-   ID "5D45393C2BCAFA5E"
-   components {
-    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
-     m_aContainers {
-      SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-      }
-     }
-     m_aEncapsulators {
-      SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
-       m_aActions {
-        SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
-         m_fResourceValueCurrent 1000
-        }
-       }
-      }
-     }
-    }
-   }
-  }
-  GenericEntity {
-   ID "5D45393C2BCAFB2E"
-   components {
-    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
-     m_aEncapsulators {
-      SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
-       m_aActions {
-        SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
-         m_fResourceValueCurrent 1000
-        }
-       }
-      }
-     }
-    }
-   }
-  }
- }
+GenericEntity : "{4DD68C00D2A5C689}Prefabs/Compositions/Frontline/FL_VicMaintenance_USSR_01.et" {
+ coords 3950.149 111.998 4871.939
+ angleY 136.738
 }
 SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
- coords 4029.843 96.841 4899.047
+ coords 3970.69 108.059 4898.101
  m_fSpawnRadius 20
 }
-GenericEntity : "{68ED84218EA1BDC3}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_USSR_01.et" {
- coords 3964.382 104.429 4939.017
- angleX -6.121
- angleY -0.864
- angleZ 8.051
-}
-GenericEntity : "{7C20041DA3207191}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_S_USSR_01.et" {
- coords 4002.495 101.318 4893.748
- angleX -12.489
- angleY 87.877
- angleZ -3.908
- {
-  GenericEntity {
-   ID "5D06FC881A7A27FE"
-   {
-    GenericEntity {
-     ID "5D82CDCA0B582A12"
-     components {
-      SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
-       m_aContainers {
-        SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-         m_fResourceValueCurrent 1000
-         m_fResourceValueMax 1000
-         m_bEnableResourceGain 1
-         m_fResourceGain 1
-         m_fResourceGainTickrate 10
-        }
-       }
-       m_aEncapsulators {
-        SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
-         m_aActions {
-          SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
-           m_fResourceValueCurrent 1000
-          }
-         }
-        }
-       }
-      }
-     }
-    }
-   }
-  }
-  GenericEntity {
-   ID "5D06FC881A7A276B"
-   {
-    GenericEntity {
-     ID "5D82CDCA57D02289"
-     components {
-      SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
-       m_aContainers {
-        SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-         m_fResourceValueCurrent 1000
-         m_fResourceValueMax 1000
-         m_bEnableResourceGain 1
-         m_fResourceGain 1
-         m_fResourceGainTickrate 10
-        }
-       }
-       m_aEncapsulators {
-        SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
-         m_aActions {
-          SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
-           m_fResourceValueCurrent 1000
-          }
-         }
-        }
-       }
-      }
-     }
-    }
-   }
-  }
- }
+GenericEntity : "{B0E2EDF0F6FA28D4}Prefabs/Compositions/Frontline/FL_Arsenal_USSR_01.et" {
+ coords 3960.613 108.813 4902.186
+ angleY 100.923
 }
 $grp GenericEntity : "{FD952CFF9CAD3F2B}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_USSR_01.et" {
  {
-  coords 4037.491 95.44 4914.302
+  coords 3978.338 104.965 4913.356
   angleX -2.666
   angleY -0.194
   angleZ 5.359
@@ -173,7 +31,7 @@ $grp GenericEntity : "{FD952CFF9CAD3F2B}Prefabs/Compositions/Slotted/SlotFlatSma
   }
  }
  {
-  coords 4023.754 96.719 4912.365
+  coords 3964.601 107.291 4911.419
   angleX -4.987
   angleY 95.554
   angleZ -4.062

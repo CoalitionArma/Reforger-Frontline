@@ -1,0 +1,23 @@
+$grp SCR_VehicleSpawn {
+ {
+  coords 10350.536 33.556 420.805
+  m_rnPrefab "{04BDACC0BB83284E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_MERDC.et"
+ }
+ {
+  coords 10350.525 33.063 431.317
+  angleY -2.971
+  m_rnPrefab "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et"
+ }
+}
+SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ coords 10365.521 34.485 389.423
+ angleY -50.61
+}
+GenericEntity : "{C3159ADA6A28EE9A}Prefabs/Compositions/Frontline/FL_Arsenal_US_01.et" {
+ coords 10365.981 34.621 378.924
+ angleY -64.495
+}
+GenericEntity : "{D41143023159F3AD}Prefabs/Compositions/Frontline/FL_VicMaintenance_US_01.et" {
+ coords 10363.075 33.895 414.649
+ angleY 176.768
+}

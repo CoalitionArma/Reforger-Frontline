@@ -19,7 +19,8 @@ GenericEntity : "{1EB5949DF6738E38}Prefabs/Compositions/Slotted/SlotFlatSmall/Ve
  angleY -133.288
 }
 SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
- coords 3556.784 45.2 2640.178
+ coords 3551.712 44.796 2638.214
+ angleY -11.4
 }
 GenericEntity : "{FD952CFF9CAD3F2B}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_USSR_01.et" {
  coords 3541.572 44.943 2637.963
