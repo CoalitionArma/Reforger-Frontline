@@ -1,0 +1,55 @@
+$grp SCR_VehicleSpawn {
+ {
+  coords 2299.855 89.656 1296.409
+  angleY 29.494
+  m_rnPrefab "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et"
+ }
+ {
+  coords 2295.363 89.625 1287.353
+  angleY 26.568
+  m_rnPrefab "{04BDACC0BB83284E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_MERDC.et"
+ }
+}
+SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ coords 2309.36 90.619 1266.519
+}
+GenericEntity : "{77F90F896D5145C8}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_US_01.et" {
+ coords 2321.319 90.272 1252.758
+ angleY 24.901
+ {
+  GenericEntity {
+   ID "5D088D365E56BF0D"
+   coords -3.733 -0.195 1.963
+   angleY 178.418
+  }
+  GenericEntity {
+   ID "5D088D365E56BF1C"
+   coords -2.834 -0.149 5.444
+   angleY -124.436
+  }
+  GenericEntity {
+   ID "5D088D365E56BF32"
+   coords 1.066 -0.128 6.151
+   angleY -84.662
+  }
+ }
+}
+GenericEntity : "{C6E02BDC5852D558}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Shelter_Arsenal_US_01.et" {
+ coords 2302.278 90.14 1254.164
+ angleY 30.11
+ {
+  GenericEntity {
+   ID "5D371ACBE97B9E1F"
+   components {
+    SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+     m_eSupportedArsenalItemTypes 459774
+     m_eSupportedArsenalItemModes 242
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{ECB8E313DFBD3415}Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_US_01.et" {
+ coords 2306.85 90.742 1291.985
+ angleY -59.599
+}

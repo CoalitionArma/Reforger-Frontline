@@ -1,0 +1,106 @@
+GenericEntity : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposition_Base.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{62B8D4BAAB326313}" {
+   "faction affiliation" "FIA"
+  }
+  Hierarchy "{62B8D4BAA0B020DB}" {
+  }
+ }
+ coords 2256.999 81.376 1294.429
+ {
+  GenericEntity : "{27E4C0ECA5EB1318}Prefabs/Structures/Military/Camps/Foundations/Foundation_ShelterStorage_01.et" {
+   ID "62B8D4BA1142627A"
+   coords -0.142 0.215 -3.55
+   scale 0.9
+  }
+  GenericEntity : "{677917B581F03974}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V2_storage.et" {
+   ID "62B8D4BA11436AB8"
+   coords -1.277 0.217 -1.828
+   angleY 88.496
+  }
+  $grp GenericEntity : "{98A34AE10104A932}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V1_storage.et" {
+   {
+    ID "62B8D4BA11436AAD"
+    coords 0.573 0.217 -2.986
+    angleY -89.634
+   }
+   {
+    ID "62B8D4BA11436AAE"
+    coords -0.928 -0.9 -3.041
+    angleY 179.689
+   }
+   {
+    ID "62B8D4BA1143F702"
+    coords -0.12 0.217 -4.437
+    angleY -89.634
+   }
+  }
+  GenericEntity : "{9EF8CF9ED5F800A7}Prefabs/Props/Military/Compositions/FIA/ArsenalBox_FIA_Weapons.et" {
+   ID "62B8D4BA1142627F"
+   components {
+    SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+     m_eSupportedArsenalItemTypes 459774
+     m_eSupportedArsenalItemModes 242
+    }
+   }
+   coords -0.006 0.2 -0.517
+   angleY -4.825
+  }
+  $grp GenericEntity : "{B1017A36B1F2229E}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V6_storage.et" {
+   {
+    ID "62B8D4BA11436AA1"
+    coords 0.925 0.217 -1.886
+    angleY -90
+   }
+   {
+    ID "62B8D4BA1143EC93"
+    coords -1.193 0.217 -4.193
+    angleY 90
+   }
+  }
+  GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+   ID "62B8D4BA11426279"
+   components {
+    Hierarchy "{5D647737EF0F61CF}" {
+     Enabled 1
+    }
+   }
+   coords -0.164 0.828 -6.544
+   angleY -90
+   angleZ -85.518
+  }
+  GenericEntity : "{D7B21E69929A0546}Prefabs/Structures/Military/Camps/Shelters/ShelterStorageUSSR_01.et" {
+   ID "62B8D4BA1143734B"
+   components {
+    Hierarchy "{5A58883FD62D500F}" {
+    }
+   }
+   coords -0.164 0.217 -3.55
+  }
+  $grp GenericEntity : "{DA3D4CF729F32F6B}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5_storage.et" {
+   {
+    ID "62B8D4BA1143F704"
+    coords 0.958 0.217 -4.371
+    angleY 90
+   }
+   {
+    ID "62B8D4BA1143F705"
+    coords -1.307 0.217 -5.49
+    angleY -90
+   }
+  }
+  $grp GenericEntity : "{F39F7C209905A4C7}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage.et" {
+   {
+    ID "62B8D4BA11426243"
+    coords -0.173 0.217 -5.879
+    angleY 2.412
+   }
+   {
+    ID "62B8D4BA11436AA5"
+    coords -0.09 0.217 -1.611
+    angleY -90
+   }
+  }
+ }
+}

@@ -1,0 +1,86 @@
+GenericEntity : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposition_Base.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{62B8D499772050AD}" {
+   "faction affiliation" "US"
+  }
+  Hierarchy "{62B8D49974583FD9}" {
+  }
+ }
+ coords 4401.761 1.559 11101.929
+ {
+  GenericEntity : "{0F207D66090AB0E6}Prefabs/Structures/Signs/Military/Supplies/Sign_SupplyStorage_01_Vehicle_US.et" {
+   ID "62B8D49973785CBF"
+   components {
+    Hierarchy "{5E33196030A56415}" {
+    }
+   }
+   coords 2.884 0.308 0.137
+   angleY 90
+  }
+  GenericEntity : "{3FD3F403025BBDF5}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage.et" {
+   ID "62B8D49973780BB9"
+   coords -1.298 -0.09 0.89
+   angleY -3.609
+  }
+  GenericEntity : "{52E67D46C7855822}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage_US_covered.et" {
+   ID "62B8D49973780BB5"
+   coords -1.236 -0.09 -0.278
+   angleY -3
+  }
+  $grp GenericEntity : "{6204943E9EC70EC2}Prefabs/Structures/Military/Camps/Canvas_Covers/US/CanvasCover_Medium_US.et" {
+   {
+    ID "62B8D49973780BC7"
+    components {
+     Hierarchy "{5D647729E723FBBF}" {
+      Enabled 1
+     }
+    }
+    coords -0.069 0.011 1.589
+    angleY 90
+   }
+   {
+    ID "62B8D49973780BC9"
+    components {
+     Hierarchy "{5D647729E72CBA55}" {
+      Enabled 1
+     }
+    }
+    coords 0.03 0.011 -1.706
+    angleY 90
+   }
+  }
+  GenericEntity : "{64454FA087931713}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Repair.et" {
+   ID "62B8D49973780BC0"
+   coords 4.318 -0.089 0.118
+  }
+  GenericEntity : "{677917B581F03974}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V2_storage.et" {
+   ID "62B8D49973780BA8"
+   coords -1.233 -0.09 1.976
+   angleY 176.391
+  }
+  GenericEntity : "{79604FB6CD0DD617}Prefabs/Props/Military/Compositions/US/VehicleService_US_Small.et" {
+   ID "62B8D49973780BBD"
+   coords 1.65 -0.089 -0.072
+   angleY -90
+  }
+  GenericEntity : "{98A34AE10104A932}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V1_storage.et" {
+   ID "62B8D49973780BA6"
+   coords -1.337 -0.09 -1.366
+  }
+  GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+   ID "62B8D49973780B9E"
+   components {
+    Hierarchy "{5D647729E742887D}" {
+     Enabled 1
+    }
+   }
+   coords 0.147 -0.089 0.031
+  }
+  GenericEntity : "{DA3D4CF729F32F6B}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5_storage.et" {
+   ID "62B8D49973780BA3"
+   coords -1.359 -0.09 -2.354
+   angleY -180
+  }
+ }
+}

@@ -1,0 +1,94 @@
+$grp SCR_VehicleSpawn {
+ {
+  coords 4424.821 1.625 11109.599
+  angleY 175.926
+  m_rnPrefab "{04BDACC0BB83284E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_MERDC.et"
+ }
+ {
+  coords 4421.031 1.625 11109.328
+  angleY 175.926
+  m_rnPrefab "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et"
+ }
+}
+SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ coords 4416.827 1.594 11149.876
+ angleY 176.958
+}
+GenericEntity FL_VicMaintenance_US_01 : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposition_Base.et" {
+ components {
+  FactionAffiliationComponent "{62B8D499772050AD}" {
+   "faction affiliation" "US"
+  }
+  Hierarchy "{62B8D49974583FD9}" {
+  }
+ }
+ coords 4401.761 1.559 11101.929
+ {
+  GenericEntity : "{0F207D66090AB0E6}Prefabs/Structures/Signs/Military/Supplies/Sign_SupplyStorage_01_Vehicle_US.et" {
+   components {
+    Hierarchy "{5E33196030A56415}" {
+    }
+   }
+   coords 2.884 0.308 0.137
+   angleY 90
+  }
+  GenericEntity : "{3FD3F403025BBDF5}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage.et" {
+   coords -1.298 -0.09 0.89
+   angleY -3.609
+  }
+  GenericEntity : "{52E67D46C7855822}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage_US_covered.et" {
+   coords -1.236 -0.09 -0.278
+   angleY -3
+  }
+  $grp GenericEntity : "{6204943E9EC70EC2}Prefabs/Structures/Military/Camps/Canvas_Covers/US/CanvasCover_Medium_US.et" {
+   {
+    components {
+     Hierarchy "{5D647729E72CBA55}" {
+      Enabled 1
+     }
+    }
+    coords 0.03 0.011 -1.706
+    angleY 90
+   }
+   {
+    components {
+     Hierarchy "{5D647729E723FBBF}" {
+      Enabled 1
+     }
+    }
+    coords -0.069 0.011 1.589
+    angleY 90
+   }
+  }
+  GenericEntity : "{64454FA087931713}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Repair.et" {
+   coords 4.318 -0.089 0.118
+  }
+  GenericEntity : "{677917B581F03974}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V2_storage.et" {
+   coords -1.233 -0.09 1.976
+   angleY 176.391
+  }
+  GenericEntity : "{79604FB6CD0DD617}Prefabs/Props/Military/Compositions/US/VehicleService_US_Small.et" {
+   coords 1.65 -0.089 -0.072
+   angleY -90
+  }
+  GenericEntity : "{98A34AE10104A932}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V1_storage.et" {
+   coords -1.337 -0.09 -1.366
+  }
+  GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+   components {
+    Hierarchy "{5D647729E742887D}" {
+     Enabled 1
+    }
+   }
+   coords 0.147 -0.089 0.031
+  }
+  GenericEntity : "{DA3D4CF729F32F6B}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5_storage.et" {
+   coords -1.359 -0.09 -2.354
+   angleY -180
+  }
+ }
+}
+GenericEntity : "{C3159ADA6A28EE9A}Prefabs/Compositions/Frontline/FL_Arsenal_US_01.et" {
+ coords 4410.593 1.594 11133.477
+ angleY 89.033
+}

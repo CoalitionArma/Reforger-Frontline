@@ -1,0 +1,17 @@
+GenericEntity : "{1A6F76E0028DE740}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Shelter_Arsenal_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ coords 3533.19 44.562 2645.184
+ angleY 85.114
+ {
+  GenericEntity {
+   ID "5D371ACBC8811EDA"
+   components {
+    SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+     m_eSupportedArsenalItemTypes 459774
+     m_eSupportedArsenalItemModes 242
+     m_eArsenalTypes GADGETS
+    }
+   }
+  }
+ }
+}

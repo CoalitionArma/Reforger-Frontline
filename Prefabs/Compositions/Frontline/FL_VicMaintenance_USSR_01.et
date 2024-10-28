@@ -1,0 +1,66 @@
+GenericEntity : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposition_Base.et" {
+ ID "5282DCB5DFC8538F"
+ coords 4937.888 36.123 9119.804
+ {
+  GenericEntity : "{0457BBAF5262EECE}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage_USSR_covered.et" {
+   ID "62B8D49B980B75A2"
+   coords 4.785 -0.093 -0.09
+   angleY 0.44
+  }
+  GenericEntity : "{537F30DE86BEAFD7}Prefabs/Props/Military/Compositions/USSR/VehicleService_USSR_Small.et" {
+   ID "62B8D49B980B758D"
+   coords 1.857 -0.092 -0.146
+   angleY 90
+  }
+  GenericEntity : "{540DB055F56C9310}Prefabs/Structures/Signs/Military/Supplies/Sign_SupplyStorage_01_Vehicle_USSR.et" {
+   ID "62B8D49B980B7586"
+   components {
+    Hierarchy "{5E6B10F927204DFF}" {
+    }
+   }
+   coords 0.992 0.332 -0.094
+   angleX 2.444
+   angleY -92.841
+   angleZ -1.092
+  }
+  GenericEntity : "{56FE5463D476AB35}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V6_storage_USSR_covered.et" {
+   ID "62B8D49B980B759B"
+   coords 4.767 -0.093 2.162
+   angleY -179.877
+   {
+    GenericEntity {
+     ID "5D30E783EA6F52C6"
+     coords 0 0 0
+    }
+   }
+  }
+  GenericEntity : "{64454FA087931713}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Repair.et" {
+   ID "62B8D49B980B747E"
+   coords -1.381 -0.092 -0.205
+  }
+  GenericEntity : "{677917B581F03974}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V2_storage.et" {
+   ID "62B8D49B980B7594"
+   coords 4.738 -0.093 -2.284
+   angleY -1.226
+  }
+  GenericEntity : "{BD2934A1F1EFE742}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage_base.et" {
+   ID "62B8D49B980B7592"
+   coords 4.78 -0.093 1.026
+   angleY 0.343
+  }
+  GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+   ID "62B8D49B980B7585"
+   components {
+    Hierarchy "{5D647729E3337F87}" {
+     Enabled 1
+    }
+   }
+   coords 3.239 -0.092 -0.238
+  }
+  GenericEntity : "{F39F7C209905A4C7}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage.et" {
+   ID "62B8D49B980B7590"
+   coords 4.678 -0.093 -1.208
+   angleY -89.895
+  }
+ }
+}
