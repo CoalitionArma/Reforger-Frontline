@@ -1,6 +1,9 @@
 SCR_BaseGameMode : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
  ID "56B2B479C6B96951"
  components {
+  CRF_FrontlineGameModeComponent "{620F6AB8F7CA48DE}" {
+   m_iMinNumberOfPlayersNeeded 3
+  }
   SCR_CampaignBuildingManagerComponent "{62B7009F414B5F35}" {
    m_sFreeRoamBuildingClientTrigger "{5E191CEAF4B95816}Prefabs/MP/FreeRoamBuildingClientTrigger.et"
    m_BudgetType CAMPAIGN
