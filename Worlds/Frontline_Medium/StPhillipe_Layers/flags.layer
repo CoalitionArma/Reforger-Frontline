@@ -91,7 +91,7 @@ $grp GenericEntity : "{3789AECEAC823135}Prefabs/Compositions/Slotted/SlotFlatSma
   angleY 17.873
  }
 }
-GenericEntity : "{4EBC47B8D0D10809}Prefabs/Structures/Frontline/FlagPole_Zone_D.et" {
+GenericEntity dZone : "{4EBC47B8D0D10809}Prefabs/Structures/Frontline/FlagPole_Zone_D.et" {
  coords 4996.183 26.667 9948.313
 }
 $grp GenericEntity : "{5CB3BC314133B06A}Prefabs/Compositions/Slotted/SlotFlatSmall/COAL_SandbagPos_S_Green_01.et" {
@@ -495,16 +495,16 @@ GenericEntity COAL_Bunker_Green_01 : "{6E9190BC2713551D}Prefabs/Compositions/Slo
   }
  }
 }
-GenericEntity : "{73886280A5BD813E}Prefabs/Structures/Frontline/FlagPole_Zone_C.et" {
+GenericEntity cZone : "{73886280A5BD813E}Prefabs/Structures/Frontline/FlagPole_Zone_C.et" {
  coords 4349.208 31.722 10087.247
  angleX -6.467
  angleY -0.832
  angleZ 8.466
 }
-GenericEntity : "{96142E79A9581655}Prefabs/Structures/Frontline/FlagPole_Zone_B.et" {
+GenericEntity bZone : "{96142E79A9581655}Prefabs/Structures/Frontline/FlagPole_Zone_B.et" {
  coords 5163.614 42.368 10486.479
 }
-GenericEntity : "{AB200B41DC349F62}Prefabs/Structures/Frontline/FlagPole_Zone_E.et" {
+GenericEntity eZone : "{AB200B41DC349F62}Prefabs/Structures/Frontline/FlagPole_Zone_E.et" {
  coords 4522.524 19.99 9425.333
 }
 $grp GenericEntity : "{EF21C70FD50B2F69}Prefabs/Compositions/Slotted/SlotFlatSmall/COAL_SandbagPos_S_Green_02.et" {
@@ -578,6 +578,6 @@ $grp GenericEntity : "{EF21C70FD50B2F69}Prefabs/Compositions/Slotted/SlotFlatSma
   angleY 106.147
  }
 }
-GenericEntity : "{FA401A99159C997B}Prefabs/Structures/Frontline/FlagPole_Zone_A.et" {
+GenericEntity aZone : "{FA401A99159C997B}Prefabs/Structures/Frontline/FlagPole_Zone_A.et" {
  coords 4559.327 29.145 10505.078
 }
