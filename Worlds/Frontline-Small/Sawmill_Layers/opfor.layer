@@ -1,6 +1,94 @@
-GenericEntity : "{4DD68C00D2A5C689}Prefabs/Compositions/Frontline/FL_VicMaintenance_USSR_01.et" {
- coords 3950.149 111.998 4871.939
- angleY 136.738
+$grp SCR_VehicleSpawn {
+ {
+  coords 3975.091 112.015 4849.114
+  angleX -0.72
+  angleY -36.496
+  angleZ 0.532
+  m_rnPrefab "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et"
+  respawnDelay 60
+ }
+ {
+  coords 3965 111.938 4862.369
+  angleY -46.288
+  m_rnPrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+  respawnDelay 120
+ }
+}
+GenericEntity : "{1EB5949DF6738E38}Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_USSR_01.et" {
+ coords 4034.387 97.35 4878.925
+ angleX 9.201
+ angleY -113.496
+ angleZ -1.092
+ {
+  GenericEntity {
+   ID "5D45393ACC919C9A"
+   components {
+    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+     m_aContainers {
+      SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+       m_fResourceValueCurrent 1000
+       m_fResourceValueMax 1000
+       m_fResourceGain 1
+       m_fResourceGainTickrate 20
+      }
+     }
+     m_aEncapsulators {
+      SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+       m_aActions {
+        SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+         m_fResourceValueCurrent 1000
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{4510C273B794F3A9}Prefabs/Compositions/Slotted/SlotFlatMedium/VehicleMaintenance_M_USSR_01.et" {
+ coords 3955.254 108.619 4911.974
+ angleX 1.567
+ angleY -39.601
+ angleZ 10.209
+ {
+  GenericEntity {
+   ID "5D45393C2BCAFA5E"
+   components {
+    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+     m_aContainers {
+      SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+      }
+     }
+     m_aEncapsulators {
+      SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+       m_aActions {
+        SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+         m_fResourceValueCurrent 1000
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D45393C2BCAFB2E"
+   components {
+    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+     m_aEncapsulators {
+      SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+       m_aActions {
+        SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
+         m_fResourceValueCurrent 1000
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
 }
 SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
  coords 3970.69 108.059 4898.101
