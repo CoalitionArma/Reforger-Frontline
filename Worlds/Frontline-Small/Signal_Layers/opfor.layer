@@ -1,3 +1,21 @@
+$grp SCR_VehicleSpawn {
+ {
+  coords 2974.635 24.449 2738.169
+  angleX 10.758
+  angleY -78.768
+  angleZ 0.33
+  m_rnPrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+  respawnDelay 120
+ }
+ {
+  coords 2991.399 21.629 2734.731
+  angleX 7.327
+  angleY -79.661
+  angleZ -0.472
+  m_rnPrefab "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et"
+  respawnDelay 60
+ }
+}
 GenericEntity : "{1EB5949DF6738E38}Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_USSR_01.et" {
  coords 3006.937 18.926 2747.498
  angleX -10.606

@@ -3,6 +3,9 @@ SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
 }
 SCR_BaseGameMode GameMode_Frontline1 : "{58D30FCD82B9A241}Prefabs/MP/Modes/Frontline/GameMode_Frontline.et" {
  components {
+  CRF_FrontlineGameModeComponent "{620F6AB8F7CA48DE}" {
+   m_iMinNumberOfPlayersNeeded 3
+  }
   SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
    m_SpawnLogic SCR_MenuSpawnLogic "{625D067A5EB1D548}" {
    }
