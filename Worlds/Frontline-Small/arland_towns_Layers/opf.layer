@@ -1,0 +1,28 @@
+GenericEntity : "{1A6F76E0028DE740}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Shelter_Arsenal_USSR_01.et" {
+ coords 3533.19 44.562 2645.184
+ angleY 85.114
+ {
+  GenericEntity {
+   ID "5D371ACBC8811EDA"
+   components {
+    SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+     m_eSupportedArsenalItemTypes 459774
+     m_eSupportedArsenalItemModes 242
+     m_eArsenalTypes GADGETS
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{1EB5949DF6738E38}Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_USSR_01.et" {
+ coords 3555.71 44.925 2650.368
+ angleY -133.288
+}
+SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ coords 3551.712 44.796 2638.214
+ angleY -11.4
+}
+GenericEntity : "{FD952CFF9CAD3F2B}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_USSR_01.et" {
+ coords 3541.572 44.943 2637.963
+ angleY 16.821
+}

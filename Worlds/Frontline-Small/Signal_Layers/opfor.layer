@@ -58,73 +58,9 @@ GenericEntity : "{68ED84218EA1BDC3}Prefabs/Compositions/Slotted/SlotFlatSmall/An
  angleY 0.073
  angleZ 2.681
 }
-GenericEntity : "{7C20041DA3207191}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_S_USSR_01.et" {
- coords 2965.508 23.471 2758.354
- angleX -7.311
- angleY 87.496
- angleZ -4.118
- {
-  GenericEntity {
-   ID "5D06FC881A7A27FE"
-   {
-    GenericEntity {
-     ID "5D82CDCA0B582A12"
-     components {
-      SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
-       m_aContainers {
-        SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-         m_fResourceValueCurrent 1000
-         m_fResourceValueMax 1000
-         m_bEnableResourceGain 1
-         m_fResourceGain 1
-         m_fResourceGainTickrate 10
-        }
-       }
-       m_aEncapsulators {
-        SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
-         m_aActions {
-          SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
-           m_fResourceValueCurrent 1000
-          }
-         }
-        }
-       }
-      }
-     }
-    }
-   }
-  }
-  GenericEntity {
-   ID "5D06FC881A7A276B"
-   {
-    GenericEntity {
-     ID "5D82CDCA57D02289"
-     components {
-      SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
-       m_aContainers {
-        SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-         m_fResourceValueCurrent 1000
-         m_fResourceValueMax 1000
-         m_bEnableResourceGain 1
-         m_fResourceGain 1
-         m_fResourceGainTickrate 10
-        }
-       }
-       m_aEncapsulators {
-        SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
-         m_aActions {
-          SCR_ResourceEncapsulatorActionChangeResourceValue "{5DE296D4C353664B}" {
-           m_fResourceValueCurrent 1000
-          }
-         }
-        }
-       }
-      }
-     }
-    }
-   }
-  }
- }
+GenericEntity : "{B0E2EDF0F6FA28D4}Prefabs/Compositions/Frontline/FL_Arsenal_USSR_01.et" {
+ coords 2970.095 22.888 2758.099
+ angleY 67.225
 }
 $grp GenericEntity : "{FD952CFF9CAD3F2B}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_USSR_01.et" {
  {

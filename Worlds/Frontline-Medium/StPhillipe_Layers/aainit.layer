@@ -1,0 +1,11 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ coords 4320.105 10.537 10715.384
+}
+SCR_BaseGameMode GameMode_Frontline1 : "{58D30FCD82B9A241}Prefabs/MP/Modes/Frontline/GameMode_Frontline.et" {
+ components {
+  CRF_FrontlineGameModeComponent "{620F6AB8F7CA48DE}" {
+   m_iMinNumberOfPlayersNeeded 4
+  }
+ }
+ coords 4276.016 0.747 10728.794
+}
