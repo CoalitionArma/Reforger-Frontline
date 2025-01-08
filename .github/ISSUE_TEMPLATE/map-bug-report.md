@@ -1,8 +1,8 @@
 ---
 name: Map bug report
 about: Report a bug/problem in one of our maps
-title: ''
-labels: ''
+title: '[Map Bug]'
+labels: "bug"
 assignees: ''
 
 ---

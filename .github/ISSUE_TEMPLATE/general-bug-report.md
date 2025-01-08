@@ -2,7 +2,7 @@
 name: General Bug report
 about: Report a general bug in the Coalition Frontline mod
 title: "[General Bug]"
-labels: ''
+labels: "bug"
 assignees: ''
 
 ---
