@@ -1,7 +1,7 @@
 ---
 name: General Bug report
-about: Report a general bug in the Coalition Reforger Framework
-title: "[CRF General Bug]"
+about: Report a general bug in the Coalition Frontline mod
+title: "[General Bug]"
 labels: ''
 assignees: ''
 

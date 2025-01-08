@@ -1,7 +1,7 @@
 ---
 name: Feature request
-about: Suggest a feature for the Coalition Reforger Framework
-title: "[CRF Feature]"
+about: Suggest a feature for the Coalition Frontline mod
+title: "Feature Request"
 labels: ''
 assignees: ''
 
