@@ -1,7 +1,7 @@
 ---
 name: Feature request
 about: Suggest a feature for the Coalition Frontline mod
-title: ''
+title: "Feature Request"
 labels: ''
 assignees: ''
 
