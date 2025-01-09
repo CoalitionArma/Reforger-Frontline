@@ -2,7 +2,7 @@
 name: Loadout Problem
 about: Report a problem in one of our Loadouts
 title: "[Loadout Bug]"
-labels: ''
+labels: "bug"
 assignees: ''
 
 ---
