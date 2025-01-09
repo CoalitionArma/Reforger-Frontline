@@ -1,0 +1,48 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ coords 10134.182 2.406 1495.644
+}
+SCR_BaseGameMode GameMode_Frontline1 : "{58D30FCD82B9A241}Prefabs/MP/Modes/Frontline/GameMode_Frontline.et" {
+ components {
+  CRF_FrontlineGameModeComponent "{620F6AB8F7CA48DE}" {
+   m_iZoneCaptureTime 90
+   m_iMinNumberOfPlayersNeeded 5
+  }
+ }
+ coords 10117.958 2.437 1501.248
+ {
+  RadioManagerEntity {
+   ID "625D067A36D63EA4"
+   coords 0 0 0
+  }
+  ScriptedChatEntity {
+   ID "625D067A24761E91"
+   coords 0 0 0
+  }
+  SCR_FactionManager "6453353C264BE8C8" {
+   ID "625D067DC6A3C4BE"
+   coords 0 0 0
+  }
+  SCR_BaseTaskManager {
+   ID "625D067A3D94C515"
+   coords 0 0 0
+   {
+    SCR_BaseTaskSupportEntity {
+     ID "5A0AA0B0D37D2B35"
+     coords 0 0 0
+    }
+    SCR_EditorTaskSupportEntity {
+     ID "5A0AA0B0D37D2BC3"
+     coords 0 0 0
+    }
+    SCR_TriggerTaskSupportEntity {
+     ID "5A0AA0B0D37D2BFF"
+     coords 0 0 0
+    }
+   }
+  }
+  SCR_LoadoutManager {
+   ID "625D067DCC9A4677"
+   coords 0 0 0
+  }
+ }
+}

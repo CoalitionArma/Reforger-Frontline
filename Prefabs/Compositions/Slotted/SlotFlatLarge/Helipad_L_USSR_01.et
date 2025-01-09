@@ -1,0 +1,278 @@
+GenericEntity : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposition_Base.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  RigidBody "{5E96A067A67C5029}" {
+   Geometries {
+    PhysicsBoxGeometry UserAction {
+     Extents 25 0.5 25
+    }
+   }
+  }
+  SCR_CampaignBuildingCompositionComponent "{5E96A067C097D570}" {
+   m_AudioSourceConfigurationSpawn SCR_AudioSourceConfiguration "{5E96A067C355978C}" {
+    m_sSoundEventName "SOUND_BUILD_VEHICLE_DEPOT"
+   }
+  }
+  ActionsManagerComponent "{5D66ED1096104FD8}" {
+   ActionContexts {
+    UserActionContext "{5D66ED108A2039E0}" {
+     Radius 20
+    }
+   }
+   additionalActions {
+    SCR_CampaignBuildingDisassemblyUserAction "{5D66ED1086234C38}" {
+     VisibilityRange 20
+    }
+   }
+  }
+  Hierarchy "{64533521B7AACF81}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+ {
+  GenericEntity : "{0EA8D3E27052750B}Prefabs/Props/Military/Compositions/USSR/VehicleService_USSR_Large.et" {
+   ID "64533521B7B5ED22"
+   components {
+    SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
+     m_aAvailableTraits +{
+     }
+    }
+    ActionsManagerComponent "{5CB6952C9693C41C}" {
+     additionalActions {
+      SCR_CampaignBuildingStartUserAction "{5ED5534E4E40397F}" {
+       UIInfo UIInfo "{5EF88B0BEE450043}" {
+        Name "#AR-Action_RequestHelicopter-UC"
+       }
+      }
+     }
+    }
+   }
+   coords 9.045 0.001 -6.881
+   angleY 103.141
+  }
+  $grp StaticModelEntity : "{38830F6F1297670A}Prefabs/Structures/Military/Camps/AirfieldMatting_01/AirfieldMatting_USSR_01_short.et" {
+   {
+    ID "64533521B7B5ED2C"
+    components {
+     Hierarchy "{64533521B7AACF45}" {
+      Enabled 1
+     }
+    }
+    coords 10.86 0 -8.462
+    angleY -84.717
+   }
+   {
+    ID "64533521B7B61787"
+    components {
+     Hierarchy "{64533521B7AACF39}" {
+      Enabled 1
+     }
+    }
+    coords 11.127 0 -3.104
+    angleY -90
+   }
+   {
+    ID "64533521B7B649E0"
+    components {
+     Hierarchy "{64533521B7AACF3C}" {
+      Enabled 1
+     }
+    }
+    coords -12.36 0 10.842
+    angleY 92.796
+   }
+   {
+    ID "64533521B7B649FF"
+    components {
+     Hierarchy "{64533521B7AACF31}" {
+      Enabled 1
+     }
+    }
+    coords -12.505 0 5.49
+    angleY 92.796
+   }
+   {
+    ID "64533521B7B6BBC0"
+    components {
+     Hierarchy "{64533521B7AACF35}" {
+      Enabled 1
+     }
+    }
+    coords -10.23 0 0.888
+    angleY 48.384
+   }
+  }
+  GenericEntity : "{540DB055F56C9310}Prefabs/Structures/Signs/Military/Supplies/Sign_SupplyStorage_01_Vehicle_USSR.et" {
+   ID "64533521B7B6BBC4"
+   components {
+    Hierarchy "{64533521B7AACF2E}" {
+     Enabled 1
+    }
+   }
+   coords 9.771 0.001 -5.152
+   angleX -0.601
+   angleY 105.612
+   angleZ 1.096
+  }
+  GenericEntity : "{6096089D97076F43}Prefabs/Structures/Signs/Military/Sign_FuelStorage_USSR_01.et" {
+   ID "64533521B7B6BBC7"
+   components {
+    Hierarchy "{64533521B7AACF23}" {
+     Enabled 1
+    }
+   }
+   coords -10.08 0 5.921
+   angleY 107.562
+  }
+  GenericEntity : "{7BDAD0F4A6195C01}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Repair_Helipad_BoundingBox.et" {
+   ID "64533521B7A80C28"
+   coords 0 0 0
+  }
+  GenericEntity : "{7D924049158F953A}Prefabs/Props/Military/Compositions/USSR/FuelService_USSR_Large.et" {
+   ID "64533521B7A80C2D"
+   components {
+    Hierarchy "{64533521B7AACCEE}" {
+    }
+   }
+   coords -9.866 -0.01 0.557
+   angleY -180
+  }
+  $grp StaticModelEntity : "{9E6FBD09BCBE2CA0}Prefabs/Structures/Military/Camps/AirfieldMatting_01/AirfieldMatting_USSR_01_long.et" {
+   {
+    ID "64533521B7A879E1"
+    components {
+     Hierarchy "{64533521B7AACCD9}" {
+      Enabled 1
+     }
+    }
+    coords 11.509 0 -7.54
+    angleY -84.806
+   }
+   {
+    ID "64533521B7A879EE"
+    components {
+     Hierarchy "{64533521B7AACCD2}" {
+      Enabled 1
+     }
+    }
+    coords 11.067 0 -5.657
+    angleY -87.365
+   }
+   {
+    ID "64533521B7A8D990"
+    components {
+     Hierarchy "{64533521B7AACCD6}" {
+      Enabled 1
+     }
+    }
+    coords 10.559 0 -3.878
+    angleY -88.781
+   }
+   {
+    ID "64533521B7A8D991"
+    components {
+     Hierarchy "{64533521B7AACCCB}" {
+      Enabled 1
+     }
+    }
+    coords 10.362 0 -7.45
+    angleY -83.417
+   }
+   {
+    ID "64533521B7A94460"
+    components {
+     Hierarchy "{64533521B7AACCBB}" {
+      Enabled 1
+     }
+    }
+    coords -12.437 0 8.065
+    angleY 90.879
+   }
+   {
+    ID "64533521B7A951B0"
+    components {
+     Hierarchy "{64533521B7AACCCF}" {
+      Enabled 1
+     }
+    }
+    coords 11.661 0 -3.964
+    angleY -89.495
+   }
+   {
+    ID "64533521B7A951B3"
+    components {
+     Hierarchy "{64533521B7AACCC7}" {
+      Enabled 1
+     }
+    }
+    coords -13.009 0 6.387
+    angleY 91.996
+   }
+   {
+    ID "64533521B7A9914E"
+    components {
+     Hierarchy "{64533521B7AACCBF}" {
+      Enabled 1
+     }
+    }
+    coords -11.801 0 9.803
+    angleY 93.551
+   }
+   {
+    ID "64533521B7A9914F"
+    components {
+     Hierarchy "{64533521B7AACCB2}" {
+      Enabled 1
+     }
+    }
+    coords -11.922 0 6.263
+    angleY 91.448
+   }
+   {
+    ID "64533521B7A99D2F"
+    components {
+     Hierarchy "{64533521B7AACCB6}" {
+      Enabled 1
+     }
+    }
+    coords -10.974 0 2.697
+    angleY 52.817
+   }
+   {
+    ID "64533521B7AA1ACF"
+    components {
+     Hierarchy "{64533521B7AACCAA}" {
+      Enabled 1
+     }
+    }
+    coords -11.869 0 2.954
+    angleY 52.928
+   }
+   {
+    ID "64533521B7AA3CF0"
+    components {
+     Hierarchy "{64533521B7AACCA9}" {
+      Enabled 1
+     }
+    }
+    coords -12.907 0 9.909
+    angleY 91.996
+   }
+  }
+  StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_USSR_01.et" {
+   ID "64533521B7AA3CF5"
+   coords -0.462 0 0
+  }
+  GenericEntity : "{FC8BFF421115C2D8}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_VehicleGadget_USSR.et" {
+   ID "64533521B7AACFA0"
+   components {
+    Hierarchy "{64533521B7AACC78}" {
+     Enabled 1
+    }
+   }
+   coords -10.352 0 5.238
+   angleY 153.993
+  }
+ }
+}

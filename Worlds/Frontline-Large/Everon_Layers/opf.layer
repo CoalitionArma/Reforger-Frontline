@@ -1,0 +1,40 @@
+$grp GenericEntity : "{4DD68C00D2A5C689}Prefabs/Compositions/Frontline/FL_VicMaintenance_USSR_01.et" {
+ {
+  coords 4866.309 28.593 11781.485
+ }
+ {
+  coords 4866.507 28.594 11805.324
+ }
+ {
+  coords 4866.309 28.593 11830.634
+ }
+}
+SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ coords 4894.542 28.594 11818.521
+ angleY -90.866
+}
+$grp GenericEntity : "{525C793E1943EA06}Prefabs/Compositions/Slotted/SlotFlatLarge/Helipad_L_USSR_01.et" {
+ {
+  coords 4881.572 28.593 11932.96
+ }
+ {
+  coords 4881.572 28.593 11903.482
+ }
+ {
+  coords 4881.572 28.593 11871.406
+ }
+}
+$grp GenericEntity : "{B0E2EDF0F6FA28D4}Prefabs/Compositions/Frontline/FL_Arsenal_USSR_01.et" {
+ {
+  coords 4915.413 28.594 11812.879
+  angleY -91.771
+ }
+ {
+  coords 4915.715 28.594 11821.574
+  angleY -91.771
+ }
+ {
+  coords 4915.439 28.594 11830.479
+  angleY -91.771
+ }
+}
