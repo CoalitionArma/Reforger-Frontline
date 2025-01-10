@@ -1,0 +1,290 @@
+GenericEntity : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposition_Base.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  RigidBody "{5E96A067A67C5029}" {
+   Geometries {
+    PhysicsBoxGeometry UserAction {
+     Extents 25 0.5 25
+    }
+   }
+  }
+  SCR_CampaignBuildingCompositionComponent "{5E96A067C097D570}" {
+   m_AudioSourceConfigurationSpawn SCR_AudioSourceConfiguration "{5E96A067C355978C}" {
+    m_sSoundEventName "SOUND_BUILD_VEHICLE_DEPOT"
+   }
+  }
+  ActionsManagerComponent "{5D66ED1096104FD8}" {
+   ActionContexts {
+    UserActionContext "{5D66ED108A2039E0}" {
+     Radius 20
+    }
+   }
+   additionalActions {
+    SCR_CampaignBuildingDisassemblyUserAction "{5D66ED1086234C38}" {
+     VisibilityRange 20
+    }
+   }
+  }
+  Hierarchy "{64533521AAED6DC9}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+ {
+  GenericEntity : "{0F207D66090AB0E6}Prefabs/Structures/Signs/Military/Supplies/Sign_SupplyStorage_01_Vehicle_US.et" {
+   ID "64533521AAE9D7A9"
+   components {
+    Hierarchy "{64533521AAED6200}" {
+     Enabled 1
+    }
+   }
+   coords 9.463 0 -5.314
+   angleX 0.744
+   angleY 82.772
+   angleZ 1.075
+  }
+  GenericEntity : "{1693A2CCA4BFD922}Prefabs/Props/Military/Compositions/US/FuelService_US_Large.et" {
+   ID "64533521AAE9D7AC"
+   components {
+    Hierarchy "{64533521AAED6239}" {
+    }
+   }
+   coords -11.164 0 -0.498
+   angleY 90
+  }
+  $grp StaticModelEntity : "{1E9C77D99D7F8A15}Prefabs/Structures/Military/Camps/AirfieldMatting_01/AirfieldMatting_US_01_short.et" {
+   {
+    ID "64533521AAE908F3"
+    components {
+     Hierarchy "{64533521AAED6258}" {
+      Enabled 1
+     }
+    }
+    coords 10.035 0 -8.102
+    angleY -87.443
+   }
+   {
+    ID "64533521AAE90E0E"
+    components {
+     Hierarchy "{64533521AAED625C}" {
+      Enabled 1
+     }
+    }
+    coords 10.34 0 -2.836
+    angleY -85.828
+   }
+   {
+    ID "64533521AAE9B4A4"
+    components {
+     Hierarchy "{64533521AAED6226}" {
+      Enabled 1
+     }
+    }
+    coords 11.397 0 -2.812
+    angleY -87.707
+   }
+   {
+    ID "64533521AAE9B4A5"
+    components {
+     Hierarchy "{64533521AAED6229}" {
+      Enabled 1
+     }
+    }
+    coords -12.524 0 0.985
+    angleY -87.225
+   }
+   {
+    ID "64533521AAE9D75B"
+    components {
+     Hierarchy "{64533521AAED622E}" {
+      Enabled 1
+     }
+    }
+    coords -12.291 0 10.025
+    angleY -88.767
+   }
+   {
+    ID "64533521AAE9D7A4"
+    components {
+     Hierarchy "{64533521AAED6232}" {
+      Enabled 1
+     }
+    }
+    coords 11.117 0 -8.125
+    angleY -87.707
+   }
+  }
+  GenericEntity : "{24B7AC8A3BE10CCB}Prefabs/Props/Military/Compositions/US/VehicleService_US_Large.et" {
+   ID "64533521AAE908F4"
+   components {
+    SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
+     m_aAvailableTraits +{
+     }
+    }
+    ActionsManagerComponent "{5CB6952C9693C41C}" {
+     additionalActions {
+      SCR_CampaignBuildingStartUserAction "{5ED5534E4E40397F}" {
+       UIInfo UIInfo "{5EF88B0BEE450043}" {
+        Name "#AR-Action_RequestHelicopter-UC"
+       }
+      }
+     }
+    }
+   }
+   coords 8.96 0.001 -6.891
+   angleY 102.564
+  }
+  GenericEntity : "{44C65662117C2FB6}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_VehicleGadget_US.et" {
+   ID "64533521AAE908EC"
+   components {
+    Hierarchy "{64533521AAED6243}" {
+     Enabled 1
+    }
+   }
+   coords -11.34 0 5.691
+   angleY -83.821
+  }
+  StaticModelEntity : "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et" {
+   ID "64533521AAE908D1"
+   coords -0.5 0 0
+  }
+  GenericEntity : "{7BDAD0F4A6195C01}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Repair_Helipad_BoundingBox.et" {
+   ID "64533521AAEBFBD3"
+   coords 0 0 0
+  }
+  GenericEntity : "{92EA309B969AE787}Prefabs/Structures/Signs/Military/Supplies/Sign_SupplyStorage_01_Fuel_US.et" {
+   ID "64533521AAEBAD42"
+   components {
+    Hierarchy "{64533521AAED62A3}" {
+     Enabled 1
+    }
+   }
+   coords -10.812 -0.014 0.674
+   angleX -0.236
+   angleY 83.612
+   angleZ 0.41
+  }
+  $grp StaticModelEntity : "{CABCA96DA5450B05}Prefabs/Structures/Military/Camps/AirfieldMatting_01/AirfieldMatting_US_01_long.et" {
+   {
+    ID "64533521AAEB0582"
+    components {
+     Hierarchy "{64533521AAED62CD}" {
+      Enabled 1
+     }
+    }
+    coords -11.741 0 9.372
+    angleY -89.003
+   }
+   {
+    ID "64533521AAEB0583"
+    components {
+     Hierarchy "{64533521AAED62C9}" {
+      Enabled 1
+     }
+    }
+    coords -12.938 0 5.695
+    angleY -88.5
+   }
+   {
+    ID "64533521AAEBAD6D"
+    components {
+     Hierarchy "{64533521AAED62D3}" {
+      Enabled 1
+     }
+    }
+    coords -11.826 0 5.75
+    angleY -88.5
+   }
+   {
+    ID "64533521AAEBAD72"
+    components {
+     Hierarchy "{64533521AAED62D7}" {
+      Enabled 1
+     }
+    }
+    coords -11.921 0 2.136
+    angleY -88.5
+   }
+   {
+    ID "64533521AAEC4D65"
+    components {
+     Hierarchy "{64533521AAED62FB}" {
+      Enabled 1
+     }
+    }
+    coords -12.439 0 3.69
+    angleY -88.5
+   }
+   {
+    ID "64533521AAEC4D66"
+    components {
+     Hierarchy "{64533521AAED62C0}" {
+      Enabled 1
+     }
+    }
+    coords -12.348 0 7.445
+    angleY -88.5
+   }
+   {
+    ID "64533521AAECE387"
+    components {
+     Hierarchy "{64533521AAED62C3}" {
+      Enabled 1
+     }
+    }
+    coords -12.866 0 9.296
+    angleY -88.5
+   }
+   {
+    ID "64533521AAED6CEB"
+    components {
+     Hierarchy "{64533521AAED62E6}" {
+      Enabled 1
+     }
+    }
+    coords 10.823 0 -3.551
+    angleY -85.816
+   }
+   {
+    ID "64533521AAED6CEC"
+    components {
+     Hierarchy "{64533521AAED62E9}" {
+      Enabled 1
+     }
+    }
+    coords 11.276 0 -5.395
+    angleY -87.007
+   }
+   {
+    ID "64533521AAEDC620"
+    components {
+     Hierarchy "{64533521AAED62F2}" {
+      Enabled 1
+     }
+    }
+    coords 10.173 0 -5.384
+    angleY -86.4
+   }
+   {
+    ID "64533521AAEDC621"
+    components {
+     Hierarchy "{64533521AAED62F7}" {
+      Enabled 1
+     }
+    }
+    coords 10.63 0 -7.075
+    angleY -87.344
+   }
+   {
+    ID "64533521AAEDEAE9"
+    components {
+     Hierarchy "{64533521AAED62EF}" {
+      Enabled 1
+     }
+    }
+    coords -13.041 0 2.1
+    angleY -86.696
+   }
+  }
+ }
+}
